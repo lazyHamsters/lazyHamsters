@@ -45,5 +45,3 @@ Name: *The basic HTML and most common formats*
 - Deadline: 18.00 26.09.2021
 
 - Status: *In progress...*
-
- - List of heroes:
