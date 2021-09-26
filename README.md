@@ -9,12 +9,18 @@
 ## Owr progress!
 ### Current task:
 Name: *The basic HTML and most common formats*
-Deadline: 18.00 26.09.2021
-Status: *In progress...*
-List of heroes:  
+
+- Deadline: 18.00 26.09.2021
+
+- Status: *In progress...*
+
+- List of heroes:  
 
 ### Fulfill tasks:
-Name: *The basic HTML and most common formats*
-Deadline: 18.00 26.09.2021
-Status: *In progress...*
-List of heroes:
+1.Task 01: *The basic HTML and most common formats*
+
+- Deadline: 18.00 26.09.2021
+
+- Status: *In progress...*
+
+ - List of heroes:
