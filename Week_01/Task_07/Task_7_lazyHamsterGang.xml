@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<itgang name="lazyhamsters">
+	<hamster>
+		<id>01</id>
+		<username>Serg</username>
+		<location>Вінниця</location>
+		<age>41</age>
+        	<education>ХіВПС-2002</education>
+    	    	<itexperience>новачок</itexperience>
+	        <motivation>Опанувати Front-End</motivation>
+	        <workingarea>Вінниця</workingarea>
+        	<currentposition>тимчасово не працюю</currentposition>
+        	<combatexperience>2016</combatexperience>
+        	<hobby>Закрита інформація</hobby>
+	</hamster>
+	<hamster>
+		<id>02</id>
+		<username>Vitalii Kryshtop</username>
+		<location>Суми</location>
+		<age>30</age>
+        	<education>СумДУ</education>
+        	<itexperience>новачок</itexperience>
+        	<motivation>освоїти Frontend</motivation>
+        	<workingarea>Закрита інформація</workingarea>
+        	<currentposition>Закрита інформація</currentposition>
+        	<combatexperience>2016-2018 у складі добробату,2017 - 2020 контаркт</combatexperience>
+        	<hobby>різні види туристичних активностей</hobby>
+	</hamster>
+	<hamster>
+		<id>03</id>
+		<username>Alexey</username>
+		<location>Хмельницький</location>
+		<age>27</age>
+  		<education>середня-спеціальна, здобуваю вишу</education>
+       		<itexperience>новачок</itexperience>
+		<motivation>здобуваю освіту за цим напрямком, тому хочу в цьому розбиратись</motivation>
+		<workingarea>Хмельницький</workingarea>
+		<currentposition>діючий військовий</currentposition>
+		<combatexperience>2014-2018</combatexperience>
+		<hobby>skydiving, туризм, фотографія</hobby>
+	</hamster>
+	<hamster>
+		<id>04</id>
+		<username>Дмитро Барабан</username>
+		<location>Полтава</location>
+		<age>27</age>
+        	<education>НУХТ у 2018 році</education>
+        	<itexperience>півроку</itexperience>
+        	<motivation>Хочу стати Front-End розробником</motivation>
+        	<workingarea>Полтава</workingarea>
+        	<currentposition>фахівець</currentposition>
+        	<combatexperience>2016 - 1 ротація</combatexperience>
+        	<hobby>фотографія</hobby>
+	</hamster>
+	<hamster>
+		<id>05</id>
+		<username>Mikhail Yasenitskiy</username>
+		<location>Червоноград Львівська область</location>
+		<age>37</age>
+        	<education>НУПіБ КИЇВ 2005 рік</education>
+        	<itexperience>не має</itexperience>
+        	<motivation>Хочу розібратися в сфері ІТ і спробувати себе в розробці сайтів</motivation>
+        	<workingarea>Червоноград</workingarea>
+        	<currentposition>завідувач складу готової продукції меблевої фірми</currentposition>
+        	<combatexperience>2017 - 1 ротація</combatexperience>
+        	<hobby>автомобілі , фермерство</hobby>
+	</hamster>
+	<hamster>
+		<id>06</id>
+		<username>Oleksii Maidaniuk</username>
+		<location>Київ</location>
+		<age>34</age>
+        	<education>НПУ ім.М,П,Драгоманова(історичний ф-тет) 2009р </education>
+        	<itexperience>новачок</itexperience>
+        	<motivation>знання/досвід/робота/мотивація</motivation>
+        	<workingarea>Київ/Буковель</workingarea>
+        	<currentposition>верхолаз/рятувальник</currentposition>
+        	<combatexperience>2014-2015</combatexperience>
+        	<hobby>подорожі, активнийвідпочинок, йога</hobby>
+	</hamster>
+	<hamster>
+		<id>07</id>
+		<username>Сергій Радощенко</username>
+		<location>Закрита інформація</location>
+		<age>Закрита інформація</age>
+        	<education>Закрита інформація</education>
+        	<itexperience>Закрита інформація</itexperience>
+        	<motivation>Закрита інформація</motivation>
+        	<workingarea>Закрита інформація</workingarea>
+        	<currentposition>Закрита інформація</currentposition>
+        	<combatexperience>Закрита інформація</combatexperience>
+        	<hobby>Закрита інформація</hobby>
+	</hamster>
+	<hamster>
+		<id>08</id>
+		<username>Yurii</username>
+		<location>Київ</location>
+		<age>37</age>
+        	<education>вища (дизайн)</education>
+        	<itexperience>новачок</itexperience>
+        	<motivation>Бажання працювати в ІТ</motivation>
+        	<workingarea>Закрита інформаціяКиів</workingarea>
+        	<currentposition>фрілансер дизайн</currentposition>
+        	<combatexperience>2014 - 2016</combatexperience>
+        	<hobby>аєрографія</hobby>
+	</hamster>
+	<hamster>
+		<id>09</id>
+		<username>Dmytro Ivanov</username>
+		<location>Закрита інформація</location>
+		<age>Закрита інформація</age>
+        	<education>Закрита інформація</education>
+        	<itexperience>Закрита інформація</itexperience>
+        	<motivation>Закрита інформація</motivation>
+        	<workingarea>Закрита інформація</workingarea>
+        	<currentposition>Закрита інформація</currentposition>
+        	<combatexperience>Закрита інформація</combatexperience>
+        	<hobby>Закрита інформація</hobby>
+	</hamster>
+	<hamster>
+		<id>10</id>
+		<username>Arsen</username>
+		<location>Закрита інформація</location>
+		<age>Закрита інформація</age>
+        	<education>Закрита інформація</education>
+        	<itexperience>Закрита інформація</itexperience>
+        	<motivation>Закрита інформація</motivation>
+		<workingarea>Закрита інформація</workingarea>
+		<currentposition>Закрита інформація</currentposition>
+		<combatexperience>Закрита інформація</combatexperience>
+		<hobby>Закрита інформація</hobby>
+	</hamster>
+	<hamster>
+		<id>11</id>
+		<username>Oleh Kravchuk</username>
+		<location>Закрита інформація</location>
+		<age>Закрита інформація</age>
+		<education>Закрита інформація</education>
+		<itexperience>Закрита інформація</itexperience>
+		<motivation>Закрита інформація</motivation>
+		<workingarea>Закрита інформація</workingarea>
+		<currentposition>Закрита інформація</currentposition>
+		<combatexperience>Закрита інформація</combatexperience>
+		<hobby>Закрита інформація</hobby>
+	</hamster>
+	<hamster>
+		<id>12</id>
+		<username>Viktor</username>
+		<location>Ужгород</location>
+		<age>42</age>
+		<education>вища-юридична</education>
+		<itexperience>самоучка+ курси вордпрес</itexperience>
+		<motivation>Хочу стати Front-End розробником</motivation>
+		<workingarea>Ужгород</workingarea>
+		<currentposition>тимчасово не працюю</currentposition>
+		<combatexperience>15-16</combatexperience>
+		<hobby>Закрита інформація</hobby>
+	</hamster>
+	<hamster>
+		<id>13</id>
+		<username>Bermuda</username>
+		<location>Київ</location>
+		<age>41</age>
+		<education>ОРІДУ НАДУ у 2018 році, НУОУ у 2014 році</education>
+		<itexperience>2 роки</itexperience>
+		<motivation>Хочу стати Front-End розробником</motivation>
+		<workingarea>Київ</workingarea>
+		<currentposition>тестувальник</currentposition>
+		<combatexperience>2015 - 1 ротаці</combatexperience>
+		<hobby>нумізматика</hobby>
+	</hamster>
+	<hamster>
+		<id>14</id>
+		<username>Igor Andreichuk</username>
+		<location>Закрита інформація</location>
+		<age>Закрита інформація</age>
+		<education>Закрита інформація</education>
+		<itexperience>Закрита інформація</itexperience>
+		<motivation>Закрита інформація</motivation>
+		<workingarea>Закрита інформація</workingarea>
+		<currentposition>Закрита інформація</currentposition>
+		<combatexperience>Закрита інформація</combatexperience>
+		<hobby>Закрита інформація</hobby>
+	</hamster>
+	<hamster>
+		<id>15</id>
+		<username>Andriy Repenko</username>
+		<location>Боярка</location>
+		<age>43</age>
+		<education>Черкаський університет.</education>
+		<itexperience>5 років</itexperience>
+		<motivation>вивчити React</motivation>
+		<workingarea>Боярка</workingarea>
+		<currentposition>FrontendDev</currentposition>
+		<combatexperience>2014-2015</combatexperience>
+		<hobby>Закрита інформація</hobby>
+	</hamster>
+	<hamster>
+		<id>16</id>
+		<username>Максим</username>
+		<location>Дніпро</location>
+		<age>48</age>
+		<education>ДНУ, радіофізичний факультет, у 1996 році.</education>
+		<itexperience>нема</itexperience>
+		<motivation>цікавить досвід розробки сайту</motivation>
+		<workingarea>Дніпро</workingarea>
+		<currentposition>фахівець</currentposition>
+		<combatexperience>2015 , 2019-2020.</combatexperience>
+		<hobby>бадмінтон, туризму, садівництво</hobby>
+	</hamster>
+	<hamster>
+		<id>17</id>
+		<username>bohdanchik88</username>
+		<location>Закрита інформація</location>
+		<age>Закрита інформація</age>
+		<education>Закрита інформація</education>
+		<itexperience>Закрита інформація</itexperience>
+		<motivation>Закрита інформація</motivation>
+		<workingarea>Закрита інформація</workingarea>
+		<currentposition>Закрита інформація</currentposition>
+		<combatexperience>Закрита інформація</combatexperience>
+		<hobby>Закрита інформація</hobby>
+	</hamster>
+        <hamster>
+		<id>18</id>
+		<username>Odzemok Pavlo</username>
+		<location>Львів</location>
+		<age>35</age>
+        <education>Національна академія ДПСУ, факультет право, випуск 2007р.</education>
+		<itexperience>не має</itexperience>
+		<motivation>Хочу стати Front-End розробником</motivation>
+		<workingarea>Прикордонник</workingarea>
+		<currentposition>Офіцер штабу</currentposition>
+		<combatexperience>2017-2018 рр.</combatexperience>
+		<hobby>Туризм, полювання, рибалка, гриби</hobby>
+	</hamster>
+</itgang>

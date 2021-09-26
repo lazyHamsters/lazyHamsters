@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<langformattable name="formats comparison">
+	<langformat>
+		<fullname>Hyper Text Markup Language</fullname>
+		<description>HTML є мовою розмітки. HTML був розроблений для відображення даних з фокусом на тому, як виглядають дані</description>
+		<base>мова розмітки</base>
+		<start>1991</start>
+		<register>є нечутливим до регістру</register>
+		<dynamics>є статичним</dynamics>
+		<dataexchange>обмін даними не можливий</dataexchange>
+		<datastorage>лише статична презинтація</datastorage>
+		<usage>забезпечує відображення даних, використовується для розробки веб-сторінки, яка буде відображатися на стороні клієнта</usage>
+		<speed>повільна передача даних, що залежить від розміру файлу, повільний парсинг при обробці</speed>
+		<supports>підтримує простір імен, коментарі та різні типи кодувань, не підтримує масиви</supports>	
+		<security>має елементи захисту</security>
+		<tags>використовуються теги (визначені теги), можуть використовуватись одинарні теги</tags>
+		<attribute>атрибут тегу може бути без значень</attribute>
+	</langformat>
+	<langformat>
+		<fullname>Extensible Markup Language</fullname>
+		<description>XML був розроблений як програмно-апаратний незалежний інструмент, який використовується для транспортування та зберігання даних, з акцентом на даних.</description>
+		<base>мова розмітки (розширена)</base>
+		<start>1996</start>
+		<register>залежить від регістру</register>
+		<dynamics>є динамічним</dynamics>
+		<dataexchange>можливий обмін даними</dataexchange>
+		<datastorage>можливий обмін структорованими даними</datastorage>
+		<usage>забезпечує опис даних, використовується в основному для транспортування даних між програмою та базою даних </usage>
+		<speed>повільна передача даних, що залежить від розміру файлу, повільний парсинг при обробці</speed>
+		<supports>підтримує простір імен, коментарі та різні типи кодувань, не підтримує масиви</supports>	
+		<security>має елементи захисту</security>
+		<tags>використовуються теги у тому числі  спеціальні, закриття тегів є обов'язковим для кожного тегу</tags>
+		<attribute>атрибут тегу не може бути без значень, якщо тег вказаний</attribute>
+	</langformat>
+		<langformat>
+		<fullname>Markdown</fullname>
+		<description>Markdown це полегшений варіант мови розмітки, орієнтований на здійснення форматування в простому тексті</description>
+		<base>мова розмітки (новий варіант)</base>
+		<start>2004</start>
+		<register>є нечутливим до регістру</register>
+		<dynamics>є статичним</dynamics>
+		<dataexchange>обмін даними не можливий</dataexchange>
+		<datastorage>обмін даними не можливий, лише статична презинтація</datastorage>
+		<usage>широко використовується для форматування тексту</usage>
+		<speed>повільна передача даних, що залежить від розміру файлу, повільний парсинг при обробці</speed>
+		<supports>підтримує коментарі та різні типи кодувань, не підтримує масиви, простір імен</supports>	
+		<security>слабо захищений</security>
+		<tags>тегі не використовуються</tags>
+		<attribute>атрибути не використовуються </attribute>
+	</langformat>
+		<langformat>
+		<fullname>JavaScript Object Notation</fullname>
+		<description>JSON це формат, створений за допомогою JavaScript.</description>
+		<base>JavaScript</base>
+		<start>2002</start>
+		<register>залежить від регістру</register>
+		<dynamics>є динамічним</dynamics>
+		<dataexchange>можливий обмін даними</dataexchange>
+		<datastorage>дані зберігаються як карта з парами ключових значень</datastorage>
+		<usage>використовується для представлення об'єктів (зазвичай використовується у веб -сервісах)</usage>
+		<speed>швидка передача даних за рахунок передачі файлів малого розміру, швидкий парсинг при обробці JavaScript-том</speed>
+		<supports>не підтримує простір імен, підтримує масиви, та лише  кодування UTF-8</supports>	
+		<security>слабо захищений</security>
+		<tags>тегі не використовуються</tags>
+		<attribute>атрибути не використовуються</attribute>
+	</langformat>
+</langformattable>
