@@ -20,7 +20,7 @@ Name: *The basic HTML and most common formats*
 | :------------------- | :---- | :--- | :---| :---- | :---- |
 | hmstr_01 | - | ![level in hamsters](https://github.com/lazyHamsters/lazyHamsters/blob/main/Support%20files/Pics/Git_small_30_30_pixels.png) | Serg | 0% |  |
 | hmstr_02 | - | ![level in hamsters](https://github.com/lazyHamsters/lazyHamsters/blob/main/Support%20files/Pics/Git_small_30_30_pixels.png)  | Vitalii Kryshtop | 0% |  |
-| hmstr_03 | - | - | Alexey | 0% |  |
+| hmstr_03 | - | ![level in hamsters](https://github.com/lazyHamsters/lazyHamsters/blob/main/Support%20files/Pics/Git_small_30_30_pixels.png)   | Alexey | 0% |  |
 | hmstr_04 | - | ![level in hamsters](https://github.com/lazyHamsters/lazyHamsters/blob/main/Support%20files/Pics/Git_small_30_30_pixels.png) ![level in hamsters](https://github.com/lazyHamsters/lazyHamsters/blob/main/Support%20files/Pics/Git_small_30_30_pixels.png) | Дмитро Барабан | 0% |  |
 | hmstr_05 | - | ![level in hamsters](https://github.com/lazyHamsters/lazyHamsters/blob/main/Support%20files/Pics/Git_small_30_30_pixels.png) | Mikhail Yasenitskiy | 0% |  |
 | hmstr_06 | - | ![level in hamsters](https://github.com/lazyHamsters/lazyHamsters/blob/main/Support%20files/Pics/Git_small_30_30_pixels.png) | Oleksii Maidaniuk | 0% |  |
