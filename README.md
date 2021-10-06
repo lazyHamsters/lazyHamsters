@@ -8,11 +8,11 @@
 
 ## Owr progress!
 ### Current task:
-Name: *The basic HTML and most common formats*
+Name: *The CSS*
 
-- Deadline: 18.00 26.09.2021
+- Deadline: 19.00 07.10.2021
 
-- Status: *Done.*
+- Status: *In progress...*
 
 - List of heroes:  
 
@@ -48,4 +48,4 @@ Name: *The basic HTML and most common formats*
 
 - Status: *Done.*
 
-- Awards: ""
+- Awards: "Null"
