@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add new folders.">
-      <change afterPath="$PROJECT_DIR$/Week_02/README.md" afterDir="false" />
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add new Readme file.">
+      <change afterPath="$PROJECT_DIR$/OurPractices/hmstr_01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +31,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/OurPractices/hmstr_01" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\IT_Bro\lazyhamsters\Week_02" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\Week_01" />
     </key>
   </component>
@@ -144,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633534162885</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add new Readme file.">
+      <created>1633534621271</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1633534621271</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +176,7 @@
     <MESSAGE value="Prepare for Week2" />
     <MESSAGE value="Prepare for Week2!" />
     <MESSAGE value="Add new folders." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new folders." />
+    <MESSAGE value="Add new Readme file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new Readme file." />
   </component>
 </project>
