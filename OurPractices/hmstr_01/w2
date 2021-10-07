@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W2</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="/img/logo.png" alt="">
+            <div>
+                <img src="" alt="" class="header__icon">
+                <div class="header__menu">
+                    <img src="" alt="" class="header__menu-img">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="starting">
+            <div class="container">
+                <div class="starting__slider">
+                    <h1 class="starting__slider-title">Learning English is<br> easier with a teacher</h1>
+                    <p class="starting__slider-subtitle">Learning English online is tough – pre-recorded
+                         lessons and self-learning is never as effective as studying in groups supervised 
+                         by a fantastic teacher.</p>
+                    <button class="starting__btn-course">Select a course</button>
+                    <button class="starting__btn-test">Take a test</button>     
+                </div>
+
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__content-item">
+                        <h4 class="about__content-title">Why us?</h4>
+                        <p class="about__content-text">Our online groups are attended by international 
+                            students — just like you are!</p>
+                    </div>
+                    <div class="about__content-person">
+                        <div class="about__person-header">
+                            <img src="" alt="" class="about__person-foto">
+                            <p class="about__person-name">Jane Cooper</p>
+                            <p class="about__person-foto">&#9733; 4,9</p>
+                        </div>
+                        <p class="about__person-text">Even though it’s been a while, I still remember 
+                            the course as excellent. I liked the programme, the quality, the competent 
+                            teachers. Highly recommended!</p>
+                    </div>
+                </div>    
+            </div>    
+        </section>
+        <section class="description">
+            <div class="container">
+                <h3 class="description__title">Start when you’re ready, cancel any time</h3>
+                <p class="description__text">Our classes are twice a week, each group is attended by 
+                    no more than 8 students from all over Europe</p>
+                <div class="description__block">
+                    <div class="description__item">
+                        <div class="description__item-header">
+                            <p class="description__item-title">Free test</p>
+                            <img class="description__item-icon" src="" alt="">
+                        </div>
+                        <ul class="description__item-content">
+                            <li class="description__item-text">Al-enambled smart test</li>
+                            <li class="description__item-text">Takes shorter to complate</li>
+                            <li class="description__item-text">Fun and accurate</li>
+                        </ul>
+                        <button class="description__item-btn">Take the free test</button>
+                    </div>
+
+                    <div class="description__item">
+                        <div class="description__item-header">
+                            <p class="description__item-title">B1 or B2 English<br>Course</p>
+                            <img class="description__item-icon" src="" alt="">
+                        </div>
+                        <ul class="description__item-content">
+                            <li class="description__item-text">Train conversational English</li>
+                            <li class="description__item-text">We’ll monitor your progress</li>
+                            <li class="description__item-text">Learn practical grammar instantly</li>
+                        </ul>
+                        <button class="description__item-btn">Select a course</button>
+                    </div>
+
+                    <div class="description__item">
+                        <div class="description__item-header">
+                            <p class="description__item-title">Free test</p>
+                            <img class="description__item-icon" src="" alt="">
+                        </div>
+                        <ul class="description__item-content">
+                            <li class="description__item-text">Free to all our student</li>
+                            <li class="description__item-text">Easy to navigate and study</li>
+                            <li class="description__item-text">All the answers to your questions</li>
+                        </ul>
+                        <button class="description__item-btn">Sign in</button>
+                    </div>
+                </div>
+            </div>    
+        </section>
+    </main>
+</body>
+</html>
