@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add new Working Folders for All.">
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_03/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_04/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_05/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_06/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_07/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_07/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_08/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_08/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_09/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_09/README.md" afterDir="false" />
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment=" Tasks...">
+      <change afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_07/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_07/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +34,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/OurPractices/hmstr_19" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/OurPractices/hmstr_13" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_13" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_19" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_18" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_17" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_16" />
-      <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_15" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Project\IT_Bro\lazyhamsters" />
@@ -179,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633535702692</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add new Working Folders for All? Done!">
+      <created>1633535969746</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1633535969746</updated>
+    </task>
+    <task id="LOCAL-00019" summary=" Tasks...">
+      <created>1633536059455</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1633536059455</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +216,8 @@
     <MESSAGE value="Add new Readme file." />
     <MESSAGE value="Add new Working Folders for [] Serg." />
     <MESSAGE value="Add new Working Folders for All." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new Working Folders for All." />
+    <MESSAGE value="Add new Working Folders for All? Done!" />
+    <MESSAGE value=" Tasks..." />
+    <option name="LAST_COMMIT_MESSAGE" value=" Tasks..." />
   </component>
 </project>
