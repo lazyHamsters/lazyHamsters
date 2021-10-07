@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <title>International MOB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
 <style>
     body{
         background: gray;
+        font-family: 'Catamaran', sans-serif;
     }
 
     .mob {
         width: 414px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         background: white;
     }
 
@@ -24,7 +28,54 @@
         height: 502px;
         margin-top: -20px;
         background: url('./img/svg/dude 1.svg') #11B55B bottom right no-repeat;
+    }
+    .main-info__title{
+        color: white;
+        position: absolute;
+        width: 358px;
+        height: 78px;
+        left: 13px;
+        top: 60px;
+    }
 
+    .main-info__text{
+        color: white;
+        position: absolute;
+        width: 375px;
+        height: 124 px;
+        left: 12px;
+        top: 180px;
+    }
+
+    .main-info__button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px; 32px;
+        width: 180px;
+        height: 48px;
+        border: 2px solid white;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: #11B55B;
+        color: white;
+        position: absolute;
+        font-size: 20px;
+    }
+
+    .main-info__button:hover {
+        border: 2px solid #197069;
+        background-color: #197069;
+    }
+
+    .first{
+        left: 12px;
+        top: 305px;
+    }
+
+    .second{
+        left: 12px;
+        top: 365px;
     }
 
     .icon {
@@ -86,8 +137,8 @@
             never as effective as studying in groups supervised by a fantastic teacher.</p>
 
         <!-- Вкладений блок `main-info__buttons` -->
-        <button class="main-info__button">Select a course</button>
-        <button class="main-info__button">Take a test</button>
+        <button class="main-info__button first">Select a course</button>
+        <button class="main-info__button second">Take a test</button>
 
         <!-- Вкладений блок `main-info__ellipses` -->
         <div class="main-info__ellipses">
