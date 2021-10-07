@@ -1,25 +1,57 @@
 <!DOCTYPE html>
 <html>
 <title>International MOB</title>
+<style>
+    .mob {
+        width: 414px;
+        margin: 0 auto;
+        background: gray; /* kill after !!! */
+    }
+
+    .list {
+        width: 22px;
+        height: 22px;
+        background: yellow; /* kill after !!! */
+        padding: 1px 0;
+        border: none;
+   }
+
+   hr {
+        border: none; /* Прибираємо границі */
+        background-color: #197069; /* Колір лінії */
+        height: 2px; /* Товщина лінії */
+        border-radius: 1px;
+        margin: 4px 0;
+   }
+</style>
 <body>
 <!-- Блок `header` -->
-<header class="header">
+<header class="header mob">
 
     <!-- Вкладений блок `main-nav` -->
     <div class="main-nav">
 
+        <!-- Вкладений блок `logo` -->
+        <div class="logo"></div>
+            <!-- Зображення `logo` -->
+            <img src="./img/svg/Vector.svg" alt="Our LogoType!">
         <!-- Вкладений блок `group` -->
         <div class="group"></div>
+            <!-- Зображення `logo` -->
+            <img src="./img/svg/Group.svg" alt="Our Name!">
 
         <!-- Вкладений блок `icon` -->
-        <div class="logo"></div>
-
-        <!-- Вкладений блок `icon` -->
-        <div class="icon"></div>
+        <div class="icon">
+            <!-- Зображення `icon` -->
+            <img src="./img/svg/icon.svg" alt="User Profile!">
+        </div>
 
         <!-- Вкладений блок `list` -->
-        <div class="list"></div>
-
+        <div class="list">
+            <hr>
+            <hr>
+            <hr>
+        </div>
     </div>
 
     <!-- Вкладений блок `main-info` -->
@@ -27,7 +59,8 @@
 
         <!-- Вкладений блок `main-info, title and text` -->
         <h1 class="main-info__title">Learning English is easier with a teacher</h1>
-        <p class="main-info__text">Learning English online is tough &#8212 pre-recorded lessons and self-learning is never as effective as studying in groups supervised by a fantastic teacher.</p>
+        <p class="main-info__text">Learning English online is tough &#8212 pre-recorded lessons and self-learning is
+            never as effective as studying in groups supervised by a fantastic teacher.</p>
 
         <!-- Вкладений блок `main-info__buttons` -->
         <button class="main-info__button">Select a course</button>
@@ -38,9 +71,7 @@
             <div class="ellepse active"></div>
             <div class="ellepse"></div>
             <div class="ellepse"></div>
-
         </div>
-
     </div>
 
     <!-- Вкладений блок `logo` -->
@@ -49,7 +80,7 @@
 </header>
 
 <!-- Блок `register-form` -->
-<form class="register-form">
+<form class="register-form mob">
     <!-- Елемент `input` блоку `register-form` -->
     <input class="register-form__input">
 
