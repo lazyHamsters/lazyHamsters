@@ -28,7 +28,11 @@ body{
         width: 358px;
         height: 78px;
         left: 13px;
-        top: 60px;
+        top: 85px;
+        font-size: 35px;
+        line-height: 1.25;
+        letter-spacing: 2.5px;
+        font-weight: 500;
     }
 
     .main-info__text{
@@ -37,7 +41,8 @@ body{
         width: 375px;
         height: 124 px;
         left: 12px;
-        top: 180px;
+        top: 190px;
+        font-size: 15px;
     }
 
     .main-info__button{
