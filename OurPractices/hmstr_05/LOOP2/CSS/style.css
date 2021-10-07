@@ -1,0 +1,152 @@
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+margin: 0; padding: 0; border: 0; outline: none;
+}
+ 
+body
+{
+line-height: 1;
+font-size: 88% /* Decide for yourself if you want to include this. */;
+}
+ 
+h1, h2, h3, h4, h5, h6
+{
+font-size: 100%;
+padding: .6em 0;
+margin: 0 15px;
+}
+ 
+ul, ol
+{
+list-style: none;
+}
+ 
+a
+{
+color: black;
+text-decoration: none;
+}
+ 
+a:hover
+{
+text-decoration: underline;
+}
+ 
+.floatLeft
+{
+float: left;
+padding: .5em .5em .5em 0;
+}
+ 
+.floatRight
+{
+float: right;
+padding: .5em 0 .5em .5em;
+}
+/* catamaran-regular - latin */
+@font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/catamaran-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/catamaran-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* catamaran-500 - latin */
+  @font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/catamaran-v8-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/catamaran-v8-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* catamaran-900 - latin */
+  @font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/catamaran-v8-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/catamaran-v8-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  html {
+      box-sizing: border-box;
+  }
+  *, *::before, *::after{
+        box-sizing: inherit;
+  }
+  body {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: green;
+  }
+  .wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  /*Header style start*/
+  .header {
+    background-color:blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 45px;
+  }
+  .header_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header_item {
+    max-width: 100px;
+  }
+  .header_item:last-child{
+    margin-right: 0;
+  }
+  .header_link {
+    font-size: 14px;
+    line-height: 22;
+    color: white;
+    text-decoration: none;
+  }
+  .header_link:hover, .header_link:focus, .header_link:active {
+    opacity: .80;
+  }
+  /*Header style end*/
+
+ /*Income style start*/
+
+ .income {
+   height: 100vh;
+   background-image: url() no-repeat center;
+   background-size: cover;
+   padding-top: 147px;
+ }
+ .income_title {
+   max-width: 538px;
+   font-weight: 558px;
+   font-size: 50px;
+   line-height: 60px;
+   color: white;
+   margin-bottom: 18px;
+ }
+ .income_subtitle {
+   max-width: 538px;
+   color: black;
+   font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 145px;
+ }
+ /*Income style end*/
