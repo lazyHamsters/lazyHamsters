@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add some example!">
-      <change beforePath="$PROJECT_DIR$/Week_02/Agenda.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/Agenda.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +30,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\IT_Bro\lazyhamsters" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\Week_02" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_13" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_19" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_18" />
-      <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_17" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Project\IT_Bro\lazyhamsters" />
@@ -340,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633699802914</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Add some example!">
+      <created>1633700239887</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1633700239887</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
