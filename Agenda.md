@@ -17,5 +17,5 @@
 
    Поточний прогрес ....
 
-   [Our Site](https://www.figma.com/file/oSiHbNQ9jiWd7iB0bbMMgt/INTELLECTUS-international?node-id=0%3A1)
+   [Our Site](https://lazyhamsters.github.io/lazyHamsters/)
    
