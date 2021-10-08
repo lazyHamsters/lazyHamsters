@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add some example to see!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add Ellipse element and hover to them!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -377,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633702989828</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Add Ellipse element and hover to them!">
+      <created>1633705622791</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1633705622791</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,6 +417,7 @@
     <MESSAGE value="CSS file was created!" />
     <MESSAGE value="Add some example!" />
     <MESSAGE value="Add some example to see!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some example to see!" />
+    <MESSAGE value="Add Ellipse element and hover to them!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Ellipse element and hover to them!" />
   </component>
 </project>
