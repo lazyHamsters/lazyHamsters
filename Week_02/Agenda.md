@@ -3,11 +3,11 @@
 1. Сформувати бібліотеку стилів (створити файл main.css) в основу покласти оптимізований файл стилів, отриманий під час верстки адаптивного сайту, 
    як приклад:
 
-   [link](https://bernyli.github.io/Biliavska_Bernatskui_fokio_step.github.io/)
+   [Site example](https://bernyli.github.io/Biliavska_Bernatskui_fokio_step.github.io/)
    
    для прикладу взяти макет:
 
-   [link](https://www.figma.com/file/oSiHbNQ9jiWd7iB0bbMMgt/INTELLECTUS-international?node-id=0%3A1)
+   [Figma link](https://www.figma.com/file/oSiHbNQ9jiWd7iB0bbMMgt/INTELLECTUS-international?node-id=0%3A1)
 
 2. Використовуючи зверстаний сайт, створити бібліотеку стилізованих елементів (блоків), базуючись на даному прикладі.
 
