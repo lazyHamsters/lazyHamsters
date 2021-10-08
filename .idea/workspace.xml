@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add some example!" />
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add some example to see!">
+      <change afterPath="$PROJECT_DIR$/Week_02/README_W02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_W02.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -352,7 +355,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633701401670</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Add some example!">
+      <created>1633701593727</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1633701593727</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add some example to see!">
+      <created>1633701728958</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1633701728958</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,6 +405,7 @@
     <MESSAGE value="Add Button!" />
     <MESSAGE value="CSS file was created!" />
     <MESSAGE value="Add some example!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some example!" />
+    <MESSAGE value="Add some example to see!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some example to see!" />
   </component>
 </project>
