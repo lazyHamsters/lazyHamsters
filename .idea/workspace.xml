@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add some example!">
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/burger-menu-icon@1X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/features-block-four.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/features-block-one.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/features-block-three.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/features-block-two.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/fon-header1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/fon-header320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/fon-header768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/fons/fon-fork1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/fons/fon-fork320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/fons/fon-fork768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/image-main_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/image-main_320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/image-main_768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/navbar-logo-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/navbar-logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/picto/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/picto/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/picto/logo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/picto/logo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/picto/logo5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/picto/logo6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/picto/read.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/pricing_full.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/img/pricing_middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Biliavska_Bernatskui_fokio_step.github.io-master/js/main.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/Agenda.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633682517202</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add some example!">
+      <created>1633682754873</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1633682754873</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
