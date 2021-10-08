@@ -90,3 +90,35 @@ body{
         border-radius: 1px;
         margin: 4px 0;
    }
+
+
+   .ellipse{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 30px;
+        top: 550px;
+        background-color: #197069;
+        border-radius: 6px;
+        border: 1px solid #197069;
+   }
+
+   .ellipse:hover{
+        background-color: #A5DD06;
+        border: 1px solid #A5DD06;
+   }
+
+   .ellipse:nth-child(1){
+        left: 30px;
+        top: 550px;
+   }
+
+   .ellipse:nth-child(2){
+       left: 50px;
+       top: 550px;
+      }
+
+   .ellipse:nth-child(3){
+       left: 70px;
+       top: 550px;
+   }

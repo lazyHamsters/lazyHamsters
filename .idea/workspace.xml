@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add some example to see!">
-      <change afterPath="$PROJECT_DIR$/Week_02/README_W02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_W02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633701728958</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add some example to see!">
+      <created>1633702989828</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1633702989828</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
