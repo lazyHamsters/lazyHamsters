@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add some files!">
-      <change afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/International/02 Divider.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/footer (1).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/footer.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/footer/Divider3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/footer/Frame1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/footer/Frame2.svg" afterDir="false" />
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add footer!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/footer (1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/footer.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add one more img to the working area.">
-      <created>1632658859329</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1632658859329</updated>
     </task>
     <task id="LOCAL-00007" summary="Add one more img to the working area.">
       <created>1632658913243</created>
@@ -405,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633757726343</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Add footer!">
+      <created>1633759721140</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1633759721141</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -424,7 +418,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Upload all files." />
     <MESSAGE value="Add README.md to the working area." />
     <MESSAGE value="Add one more img to the working area." />
     <MESSAGE value="Updating!" />
@@ -449,6 +442,7 @@
     <MESSAGE value="Add Ellipse element and hover to them!!" />
     <MESSAGE value="Add new elements!" />
     <MESSAGE value="Add some files!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some files!" />
+    <MESSAGE value="Add footer!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add footer!" />
   </component>
 </project>

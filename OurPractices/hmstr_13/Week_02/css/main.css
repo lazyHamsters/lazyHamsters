@@ -231,7 +231,7 @@ body{
 	width: 346px;
 	height: 171.88px;
 	left: 28px;
-	top: 533px; /* absolute + 500*/
+	top: 3733px; /* absolute + 3700*/
 }
 
 .title p{
@@ -250,7 +250,7 @@ body{
 	width: 317px;
 	height: 200px;
 	left: 33px;
-	top: 244px;
+	top: 3944px;   /* absolute + 3700px*/
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 20px;
@@ -271,14 +271,14 @@ body{
 	width: 357px;
 	height: 1px;
 	left: 31px;
-	top: 975px;  /* absolute + 500*/
+	top: 4175px;   /* absolute + 3700px*/
 }
 .text{
 	position: absolute;
 	width: 357px;
 	height: 162px;
 	left: 31px;
-	top: 499px;
+	top: 4199px;   /* absolute + 3700px*/
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 16px;
@@ -290,7 +290,7 @@ body{
 	width: 357px;
 	height: 1px;
 	left: 31px;
-	top: 1161px;  /* absolute + 500*/
+	top: 4361px;   /* absolute + 3700px*/
 }
 
 .button{
@@ -301,7 +301,7 @@ body{
 	width: 317px;
 	height: 200px;
 	left: 33px;
-	top: 1180px;  /* absolute + 500*/
+	top: 4395px;   /* absolute + 3700px*/
 	color: #FFFFFF;
 	flex: none;
 
@@ -318,7 +318,7 @@ body{
 	width: 357px;
 	height: 1px;
 	left: 31px;
-	top: 714px;
+	top: 4414px;   /* absolute + 3700px*/
 }
 
 .footer_content{
@@ -326,7 +326,7 @@ body{
 	width: 306px;
 	height: 16px;
 	left: 30px;
-	top: 730px;
+	top: 4430px;   /* absolute + 3700px*/
 	font-style: normal;
 	font-weight: 500;
 	font-size: 12px;
