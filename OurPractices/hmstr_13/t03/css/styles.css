@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #DCDCDC;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.title img {
+    width: 100%;
+}
+
+.main {
+    margin: 20px;
+}
+
+.main p {
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.markdownHighLights{
+    display: flex;
+    justify-content: center;
+}
+
+.markdownHighLights pre:nth-child(2n){
+    margin-left: 40px;
+}
+
+.MDDescription{
+    margin-left: 40px;
+}
+
+.MDDescription img{
+    width: 150px;
+}
+
+th, td{
+    border-bottom: 1px solid grey;
+}
+
+.footer{
+    background-color: #808080;
+}
+
+.footer h2{
+    text-align: center;
+    margin: 0;
+}
