@@ -55,13 +55,6 @@
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
     </task>
-    <task id="LOCAL-00011" summary="Prepare for Week2!">
-      <created>1633100483053</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1633100483053</updated>
-    </task>
     <task id="LOCAL-00012" summary="Prepare for Week2!">
       <created>1633533832232</created>
       <option name="number" value="00012" />
@@ -398,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633763047969</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Add footer!">
+      <created>1633781312420</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1633781312420</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="UnknownFeatures">
