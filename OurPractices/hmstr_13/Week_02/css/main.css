@@ -1,67 +1,134 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap');*/
 
+/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
 body{
         background: gray;
         font-family: 'Catamaran', sans-serif;
     }
 
+    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
     .mob {
         width: 414px;
         /* margin: 0 auto; */
         background: white;
     }
 
+    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
     .display-inline {
         display: inline-block;
     }
 
+    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
     .main-nav{
         padding: 18px;
     }
-
+    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
     .main-info {
         height: 500px;
         /*margin-top: 0px;*/
         background: url('../img/svg/dude 1.svg') #11B55B bottom right no-repeat;
     }
+
+    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
     .main-info__title{
         color: white;
-        position: absolute;
         width: 358px;
         height: 78px;
-        left: 18px;
-        top: 85px;
         font-size: 35px;
         line-height: 1.25;
         letter-spacing: 2.5px;
         font-weight: 500;
     }
 
+    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
+    .m-i-title__positionmob{
+        position: absolute;
+        left: 18px;
+        top: 85px;
+    }
+
+    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
+    .m-i-title__sizemob{
+        width: 358px;
+        height: 78px;
+    }
+
+    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
     .main-info__text{
         color: white;
-        position: absolute;
-        width: 375px;
-        height: 124 px;
-        left: 18px;
-        top: 190px;
         font-size: 15px;
     }
+
+    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
+    .m-i-text__positionmob{
+        position: absolute;
+        left: 18px;
+        top: 190px;
+    }
+
+    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
+    .m-i-text__sizemob{
+        width: 375px;
+        height: 124 px;
+    }
+
+
 
     .main-info__button{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 12px; 32px;
-        width: 180px;
-        height: 48px;
         border: 2px solid white;
         box-sizing: border-box;
         border-radius: 8px;
         background-color: #11B55B;
         color: white;
-        position: absolute;
         font-size: 20px;
     }
+
+    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+    .main-info__button:hover {
+        border: 2px solid #197069;
+        background-color: #197069;
+    }
+
+    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
+    .first{
+        position: absolute;
+        left: 18px;
+        top: 305px;
+    }
+
+    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
+    .second{
+        position: absolute;
+        left: 18px;
+        top: 365px;
+    }
+
+    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
+    .m-i-button__sizemob{
+        width: 180px;
+        height: 48px;
+
+    }
+
+/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+
+    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
+        .__positionmob{
+
+        }
+
+    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
+    .__sizemob{
+
+    }
+
+
+
+
 
     .main-info__button:hover {
         border: 2px solid #197069;
