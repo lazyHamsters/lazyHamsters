@@ -36,11 +36,14 @@
    
    [CSS:ACTIVEHAMSTERS](https://htmlpreview.github.io/?https://github.com/Andrii17s/activehamsters/blob/main/Week_2/Hamsters/About_activeLib.html)
       
-## Базова стилізація елементів (блоків) банди lazyHamsters (draft ver.01 19.00 09/10/2021):
+## Базова кастомна стилізація елементів (блоків) банди lazyHamsters (draft ver.01 19.00 09/10/2021):
 
-###
-###
-###
-###
-###
+### Топографія та підбір кольору:
+
+### Стилістика зображення:
+
+### Стилістика таблиць (в розробці):
+
+### Стилістика для форм:
+
 
