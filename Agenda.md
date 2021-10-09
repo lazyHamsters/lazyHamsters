@@ -9,27 +9,28 @@
       - *absolute* (абсолютне позиціювання) : видаляє елемент з загального потоку (місце, що звільнив елемент заповнюється іншими елементами) і вставляється відносно свого батьківського, не статично позиційованого елемента, якщо такого елемента немає, то їм вважається вікно браузера (При цьому ширина елемента, без задання, встановлюється за його вмістом). Нове місце розраховується за допомогою властивостей left, top, right та bottom.
       - *relative* (відносне позиціювання) : положення елемента встановлюється відносно його поточного положення. Додавання властивостей left, top, right і bottom змінює позицію елемента і зрушує його в ту чи іншу сторону. Ця властивість дозволяє змінюва ти позицію елемента без зміни макету
 ### 
+ [Our Site example](https://lazyhamsters.github.io/lazyHamsters/)
  
 ## Туторіал стилізованих елементів (блоків) банди lazyHamsters
 Запропонована бібліотека стилів (а саме створений файл main.css) базується на узачальненні та систематизації стилів, отриманий під час верстки реального макету (частини його мобільної версії), а саме:
    
-      [Our Site example](https://lazyhamsters.github.io/lazyHamsters/)
+   [Our Site example](https://lazyhamsters.github.io/lazyHamsters/)
+           
+   В результаті роботи створено бібліотеку стилів (у вигляді файлу "main.css"): 
       
-      В результаті роботи створено бібліотеку стилів (у вигляді файлу "main.css"): 
-      
-      [Our "main.css"](https://github.com/lazyHamsters/lazyHamsters/blob/main/css/main.css)
+   [Our "main.css"](https://github.com/lazyHamsters/lazyHamsters/blob/main/css/main.css)
 
 ## Базові посилання:
 
-      [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
-      [Going manual](https://marksheet.io/css-position.html)
+   [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
+   [Going manual](https://marksheet.io/css-position.html)
 
 ## Додаткові посилання:
 
-      [CSS:SIGMA](https://itba-sigma.github.io/MAIN-SIGMA/build/index.html)
-      [CSS:PENGUING](https://itba-penguins.github.io/penguins-css/penguins-ui-docs.html)
-      [CSS:INSAIDER](https://htmlpreview.github.io/?https://github.com/ruslankravchuk/ITBRO/blob/project/lesson_2/directory_lesson/index.html)
-      [CSS:ACTIVEHAMSTERS](https://htmlpreview.github.io/?https://github.com/Andrii17s/activehamsters/blob/main/Week_2/Hamsters/About_activeLib.html)
+   [CSS:SIGMA](https://itba-sigma.github.io/MAIN-SIGMA/build/index.html)
+   [CSS:PENGUING](https://itba-penguins.github.io/penguins-css/penguins-ui-docs.html)
+   [CSS:INSAIDER](https://htmlpreview.github.io/?https://github.com/ruslankravchuk/ITBRO/blob/project/lesson_2/directory_lesson/index.html)
+   [CSS:ACTIVEHAMSTERS](https://htmlpreview.github.io/?https://github.com/Andrii17s/activehamsters/blob/main/Week_2/Hamsters/About_activeLib.html)
       
 ## Базова стилізація елементів (блоків) банди lazyHamsters (draft ver.01 19.00 09/10/2021):
 
