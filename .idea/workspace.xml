@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add footer!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #1 to See!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,20 +50,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Prepare for Week2!">
-      <created>1633533932930</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1633533932930</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Add new folders.">
-      <created>1633534162885</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1633534162885</updated>
     </task>
     <task id="LOCAL-00015" summary="Add new Readme file.">
       <created>1633534621271</created>
@@ -398,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633783808459</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Version #1!">
+      <created>1633788895495</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1633788895495</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Version #1 to See!">
+      <created>1633789102216</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1633789102216</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -417,8 +413,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add README.md to the working area." />
-    <MESSAGE value="Add one more img to the working area." />
     <MESSAGE value="Updating!" />
     <MESSAGE value="Prepare for Week2" />
     <MESSAGE value="Prepare for Week2!" />
@@ -442,6 +436,8 @@
     <MESSAGE value="Add new elements!" />
     <MESSAGE value="Add some files!" />
     <MESSAGE value="Add footer!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add footer!" />
+    <MESSAGE value="Version #1!" />
+    <MESSAGE value="Version #1 to See!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version #1 to See!" />
   </component>
 </project>
