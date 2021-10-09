@@ -1,9 +1,9 @@
 
 /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
 body{
-        background: gray;
-        font-family: 'Catamaran', sans-serif;
-    }
+    background: gray;
+    font-family: 'Catamaran', sans-serif;
+}
 
     /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
     .mob {
@@ -70,8 +70,6 @@ body{
         width: 375px;
         height: 124 px;
     }
-
-
 
     .main-info__button{
         display: flex;
