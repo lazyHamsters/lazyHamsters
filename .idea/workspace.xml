@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #1 to See!" />
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #1 to See!!!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +28,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_13\Week_02\img" />
       <recent name="E:\Project\IT_Bro\lazyhamsters" />
+      <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_13\Week_02\img" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\css" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\Week_02" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_13" />
@@ -50,13 +50,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Add new Readme file.">
-      <created>1633534621271</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1633534621271</updated>
     </task>
     <task id="LOCAL-00016" summary="Add new Working Folders for [] Serg.">
       <created>1633534923221</created>
@@ -394,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633789102216</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Version #1 to See!!!">
+      <created>1633789461857</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1633789461857</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -413,7 +413,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updating!" />
     <MESSAGE value="Prepare for Week2" />
     <MESSAGE value="Prepare for Week2!" />
     <MESSAGE value="Add new folders." />
@@ -438,6 +437,7 @@
     <MESSAGE value="Add footer!" />
     <MESSAGE value="Version #1!" />
     <MESSAGE value="Version #1 to See!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version #1 to See!" />
+    <MESSAGE value="Version #1 to See!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version #1 to See!!!" />
   </component>
 </project>
