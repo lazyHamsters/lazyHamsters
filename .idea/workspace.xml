@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add footer!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/t03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/t03/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Updating!">
-      <created>1632665635131</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1632665635131</updated>
     </task>
     <task id="LOCAL-00009" summary="Prepare for Week2">
       <created>1633100388027</created>
@@ -399,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633760343138</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Add footer!">
+      <created>1633761339072</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1633761339073</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="UnknownFeatures">
