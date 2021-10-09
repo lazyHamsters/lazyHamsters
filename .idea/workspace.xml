@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add Ellipse element and hover to them!">
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Add Ellipse element and hover to them!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/Group.svg" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/Group.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/Icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/Icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/Vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/Vector.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/dude 1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/dude 1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/dude 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/img/svg/dude 2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurPractices/hmstr_13/Week_02/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +38,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Project\IT_Bro\lazyhamsters\css" />
       <recent name="E:\Project\IT_Bro\lazyhamsters" />
+      <recent name="E:\Project\IT_Bro\lazyhamsters\css" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\Week_02" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_13" />
       <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_19" />
@@ -55,13 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Upload all files.">
-      <created>1632643644833</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1632643644833</updated>
     </task>
     <task id="LOCAL-00002" summary="Upload all files.">
       <created>1632644553583</created>
@@ -392,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633705770363</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Add Ellipse element and hover to them!">
+      <created>1633707252970</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1633707252970</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Add Ellipse element and hover to them!!">
+      <created>1633707407132</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1633707407133</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,6 +442,7 @@
     <MESSAGE value="Add some example!" />
     <MESSAGE value="Add some example to see!" />
     <MESSAGE value="Add Ellipse element and hover to them!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Ellipse element and hover to them!" />
+    <MESSAGE value="Add Ellipse element and hover to them!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Ellipse element and hover to them!!" />
   </component>
 </project>

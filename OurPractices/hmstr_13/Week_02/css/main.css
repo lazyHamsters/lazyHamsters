@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap');
+
 body{
         background: gray;
         font-family: 'Catamaran', sans-serif;
@@ -126,3 +128,94 @@ body{
        left: 70px;
        top: 550px;
    }
+   .about {
+    height: 437px;
+    top: 573px;
+    background: rgba(25, 112, 105, 0.1);
+   }
+   .about__content-title {
+    position: absolute;
+    width: 384px;
+    height: 30px;
+    left: 15px;
+    top: 600px;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    color: #197069;
+   }
+   .about__content-text {
+    position: absolute;
+    width: 384px;
+    height: 30px;
+    left: 15px;
+    top: 665px;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #5B5B5B;
+    
+   }
+   .about__content-person {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    position: absolute;
+    width: 314px;
+    height: 165px;
+    left: 27px;
+    top: 755px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(25, 112, 105, 0.1);
+    border-radius: 8px;
+   }
+   .about__person-foto {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 25px;
+    top:25px;
+    background: url(.png);
+    border-radius: 100px;
+   }
+
+   .about__person-name {
+    position: absolute;
+    width: 177px;
+    height: 24px;
+    left: 110px;
+    top: 12px;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #5B5B5B;
+   }
+   .about__person-text {
+    position: absolute;
+    width: 338px;
+    height: 108px;
+    left: 22px;
+    top: 74px;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #5B5B5B;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 24px 0px;
+   }
+   
+  
