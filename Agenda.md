@@ -63,7 +63,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
 </head>
-``` 
+```
+ **Відпрацьовані кастомні стилі для елементів/блоків:**
+ *Оформленнф тексту -* **text-title-lh_v1**,
 
  ***Особливості підключення в CSS3***
    На розсуд користувача, шляхом додавання відповідних полів *font-family, font-size, font-style* та їх значень, до відповідних елементів стилізації.
@@ -84,7 +86,7 @@
    
  | Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5/CSS3| Примітки |
  |:-------------------------------: | :-------------| :-------------|
- | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | Підключення відповідного класу **img-lh_v1** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
+ | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/img/png/img-lh_v1.png "Один з запропонованих варіантів")    | Підключення відповідного класу **img-lh_v1** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
 
 *Стилізація в CSS*
 ```
@@ -99,7 +101,7 @@
 ``` 
 | Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5/CSS3| Примітки |
  |:-------------------------------: | :-------------| :-------------|
- | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | Підключення відповідного класу **img-lh_v2** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
+ | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/img/png/img-lh_v2.png "Один з запропонованих віріантів")    | Підключення відповідного класу **img-lh_v2** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
 
 *Стилізація в CSS*
 ```
@@ -119,10 +121,5 @@
 ### Стилістика таблиць (в розробці):
 
 ### Стилістика для форм:
-
-| Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5| Особливості підключення в CSS3| Примітки |
-   |:-------------------------------: |:-------------------------------| :-------------| :-------------|
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    |  |  |  | 
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    |  |  |  | 
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    |  |  |  | 
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    |  |  |  | 
+   
+### Стилістика для решти елементів наведена в бібліотеці з відповідним описом
