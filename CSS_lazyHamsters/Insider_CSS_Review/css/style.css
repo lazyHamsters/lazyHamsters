@@ -1,0 +1,251 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #ad733c;
+}
+.header__inner{
+    width: 100%;
+}
+.header__logo{
+    width: 200px;
+    height: 100px;
+    left: 0;
+}
+.header__logo-img{
+    height: 40px;
+    width: auto;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.header__logo-name,
+.footer__logo-name{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    position: relative;
+    width: 200px;
+}
+.header__menu{
+    display: inline;
+    width: 1000px;
+    position: absolute;
+    right: 90px;
+    top: 15px;
+}
+.menu{
+    position: relative;
+    right: -100px;
+    top: 20px;
+}
+.header__item{
+    display: inline;
+    margin-left: 20px;
+}
+.header__btn{
+    position: relative;
+    right: -700px;
+    top: -20px;
+    width: 280px;
+    height: 60px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid rgb(82, 64, 19);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.header__btn>span{
+    color: rgb(255, 0, 0);
+}
+.header__btn:hover{
+    font-size: 20px;
+    text-shadow: 3px 5px 6px #464645;
+    text-decoration: underline;
+}
+.header__link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.header__link:hover{
+    color: #f0f0f0;
+    font-size: 19px;
+    text-shadow: 3px 5px 6px #464645;
+    text-decoration: underline;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    background-color: rgb(253, 235, 220);
+}
+.home,
+.rezult,
+.about,
+.contact{
+    padding: 30px 0px;
+}
+.home__page,
+.rezult__page,
+.about__page,
+.contact__page{
+    width: 800px;
+    height: 500px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+}
+.home__page-title,
+.rezult__page-title,
+.about__page-title,
+.contact__page-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+}
+.home__page-text,
+.rezult__page-text,
+.about__page-text,
+.contact__page-text{
+    line-height: 24px;
+}
+.home__page-list{
+    margin: 40px 0px 0px 40px;
+}
+.home__page-item{
+    margin-top: 10px;
+}
+.home__reklama{
+    position: absolute;
+    top: 130px;
+    left: 1000px;
+    width: 425px;
+    height: auto;
+    border-radius: 8px;
+    background-color: rgb(218, 255, 247);
+    color: black;
+    padding: 20px;
+}
+
+.home__reklama-text{
+    line-height: 28px;
+    border: 1px solid rgb(48, 48, 48, 0.6);
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.home__reklama-text:nth-child(1){
+    width: 85%;
+}
+.home__reklama-text:nth-child(2){
+    text-align: end;
+    margin-left: 50px;
+    width: 80%;
+}
+.home__reklama-text:nth-child(3){
+    font-size: 26px;
+    line-height: 32px;
+    background-color: rgb(251, 255, 0);
+    text-align: center;
+    margin-left: 70px;
+    width: 55%;
+}
+.home__reklama-text:nth-child(4){
+    font-size: 20px;
+    line-height: 26px;
+    background-color: rgb(245, 247, 169);
+    text-align: center;
+    margin-left: 100px;
+    width: 70%;
+}
+.home__reklama-text:nth-child(5){
+    background-color: rgb(254, 255, 223);
+    text-align: center;
+    margin-left: 170px;
+    width: 45%;
+    text-decoration: underline;
+}
+.home__reklama-text:nth-child(6){
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 70px;
+    width: 55%;
+}
+.home__reklama-text:nth-child(7){
+    background-color: rgb(255, 255, 255);
+    text-align:start;
+    margin-left: 20px;
+    width: 42%;
+    padding: 5px;
+}
+.home__reklama-info{
+    font-size: 12px;
+    text-align:end;
+    border: none !important;
+    background-color: rgb(218, 255, 247) !important;
+}
+.second-block {
+    position: absolute;
+    top: 800px;
+    left: 1000px;
+    width: 425px;
+    height: 300px;
+}
+.second-block .home__reklama-info{
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 80%;
+}
+.footer{
+    width: 100%;
+    color: #f0f0f0;
+    background-color: #ad733c;
+    padding:20px 0px;
+    
+
+}
+.footer__contact{
+    position: relative;
+    width:200px;
+    bottom: 10px;
+    left:1140px;
+}
+
+
+
+.footer__contact-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top:5px;
+}
+
