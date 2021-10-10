@@ -63,7 +63,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
 </head>
-``` 
+```
+ **Відпрацьовані кастомні стилі для елементів/блоків:**
+ *Оформленнф тексту -* **text-title-lh_v1**,
 
  ***Особливості підключення в CSS3***
    На розсуд користувача, шляхом додавання відповідних полів *font-family, font-size, font-style* та їх значень, до відповідних елементів стилізації.
