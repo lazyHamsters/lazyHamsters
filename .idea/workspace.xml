@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #1 to See!!!">
+      <change afterPath="$PROJECT_DIR$/CSS_lazyHamsters/CSS_lazyHamsters_Tutorial.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS_lazyHamsters/CSS_lazyHamsters_v0_09_10_2021.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_lazyHamsters/CSS_lazyHamsters_v0_09_10_2021.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS_lazyHamsters/index_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_lazyHamsters/index_example.html" afterDir="false" />
     </list>
@@ -63,13 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Index.html from hmst_19">
-      <created>1633601145537</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1633601145537</updated>
     </task>
     <task id="LOCAL-00023" summary="MOB_Header was add!">
       <created>1633603225876</created>
@@ -407,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633847773422</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Version #1 to See!!!">
+      <created>1633849842282</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1633849842282</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="UnknownFeatures">

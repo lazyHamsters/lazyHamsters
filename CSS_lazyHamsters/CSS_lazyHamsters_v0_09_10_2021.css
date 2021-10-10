@@ -1,5 +1,5 @@
 /*
-Для використання шрифту "Catamaran" їч необхідно попередньо підключити.
+Для використання шрифту "Catamaran" його необхідно попередньо підключити.
 <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,14 +10,74 @@
 
 
 
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+/* Опис стилю "body", є базовим елементом стилізації (бібліотеки стилю)*/
 body{
     background: gray;
     font-family: 'Catamaran', sans-serif;
 }
 
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.block-lh-type0{
+/* duplicated teg body*/
+.body-ls_v1{
+    background: gray;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/* Опис стилю header, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.header-lh_v1{
+	background:#11B55B;
+}
+
+/* Опис стилю footer, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.footer-lh_v1{
+	background:#197069;
+}
+
+/* Опис стилю form, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.form-lh_v1{
+	background:#FFFFFF;
+	border-radius:10px;
+}
+
+/* Опис стилю form, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.input-lh_v1{
+	background:#FFFFFF;
+	border-radius:5px;
+	border: 1px solid #197069;
+}
+.input-lh_v1{
+	background:#FFFFFF;
+	border-radius:5px;
+	border: 1px solid #197069;
+}
+
+.table-lh_v1{
+    background:#A5DD06;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.th-lh_v1{
+    color:#FFFFFF;
+    background:#197069;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Опис стилю елемента <div>, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.div-lh_v0{
+    width: 10px;
+    height: 10px;
+    background-color: #197069;
+    border-radius: 6px;
+    border: 1px solid #197069;
+   }
+
+.div-lh_v0:hover{
+    background-color: #A5DD06;
+    border: 1px solid #A5DD06;
+   }
+
+
+/* Опис стилю елемента <div>, не є базовим елементом стилізації (бібліотеки стилю)*/
+.div-lh_v2{
     color: white;
     font-size: 35px;
     line-height: 1.25;
@@ -72,6 +132,17 @@ body{
     background-color: #197069;
 }
 
+
+ .a-ls_v0 {
+    color: #11B55B;
+    text-decoration: none; /* Прибирає підкреслення для посилань */
+   }
+
+ .a-ls_v0:hover {
+    text-decoration: underline; /* Додаємо підкреслення при наведенні курсору на посилання */
+    color: #197069;
+   }
+
 /* Опис стилю hr, є базовим елементом стилізації (бібліотеки стилю)*/
 .hr-lh_v0 {
     border: none; /* Прибираємо границі */
@@ -81,304 +152,50 @@ body{
     margin: 4px 0;
    }
 
-/* Опис стилю елемента <div>, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.div-lh_v0{
-    width: 10px;
-    height: 10px;
-    background-color: #197069;
-    border-radius: 6px;
-    border: 1px solid #197069;
-   }
-
-.div-lh_v0:hover{
-    background-color: #A5DD06;
-    border: 1px solid #A5DD06;
-   }
-
 /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
 .text-title-lh_v1 {
-       font-family: Catamaran;
-       font-style: normal;
-       font-weight: bold;
-       font-size: 27px;
-       line-height: 36px;
-       text-align: center;
-       color: #197069;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    color: #197069;
    }
 
 /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
 .text-title-lh_v2 {
-       font-family: Catamaran;
-       font-style: normal;
-       font-weight: normal;
-       font-size: 16px;
-       line-height: 26px;
-       text-align: center;
-       color: #5B5B5B;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #5B5B5B;
    }
-
-
-    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .about__content-text-position-mob{
-        left: 15px;
-        top: 665px;
-        }
-
-    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-    .about__content-text-size-mob{
-       width: 384px;
-       height: 30px;
-    }
-
-   /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .about__content-person {
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-       padding: 32px;
-       position: absolute;
-       background: #FFFFFF;
-       box-shadow: 0px 0px 20px rgba(25, 112, 105, 0.1);
-       border-radius: 8px;
+/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.text-title-lh_v3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #5B5B5B;
    }
-
-    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .about__content-person-position-mob{
-       left: 27px;
-       top: 755px;
-    }
-
-    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-    .about__content-person-size-mob{
-       width: 314px;
-       height: 165px;
-    }
-
-   /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .about__person-header{
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       padding: 0;
-   }
-
-   /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   /*
-   .about__person-foto {
-       position: absolute;
-       width: 48px;
-       height: 48px;
-       left: 25px;
-       top:25px;
-       background: url(.png);
-       border-radius: 100px;
-   }
-    */
-   /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .about__person-name {
-       position: absolute;
-       font-family: Catamaran;
-       font-style: normal;
-       font-weight: bold;
-       font-size: 20px;
-       line-height: 24px;
-       letter-spacing: 0.5px;
-       color: #5B5B5B;
-   }
-
- /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .about__person-name-position-mob{
-       left: 120px;
-       top: 12px;
-    }
-
-    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-    .about__person-name-size-mob{
-       width: 177px;
-       height: 24px;
-    }
-
-   /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .about__person-text {
-       position: absolute;
-       font-family: Catamaran;
-       font-style: normal;
-       font-weight: normal;
-       font-size: 18px;
-       line-height: 26px;
-       color: #5B5B5B;
-       flex: none;
-       order: 1;
-       flex-grow: 1;
-       margin: 24px 0px;
-   }
-
- /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .about__person-text-position-mob{
-        left: 22px;
-        top: 74px;
-    }
-
-/* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-    .about__person-text-size-mob{
-       width: 338px;
-       height: 108px;
-    }
-
-
-
-/* footer */
 
 /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.footer{
-	background:#197069;
-}
-/* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-.footer__size-mob{
-	width: 415px;
-	height: 867px;
-}
+.text-title-lh_v4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #5B5B5B;
+     }
 
 
 /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.footer-title{
-	position: absolute;
-	width: 346px;
-	height: 171.88px;
-	left: 28px;
-	top: 1033px; /* absolute + 1000*/
-}
-
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.footer-title p{
+.text-title-lh_v5{
 	font-size: 12px;
 	line-height: 16px;
 	letter-spacing: 0.4px;
 	color: #FFFFFF;
 	margin: 24px 0px;
 }
-
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.footer-content{
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 20px;
-	letter-spacing: 0.5px;
-	color: #FFFFFF;
-	flex: none;
-	margin: 16px 0px;
-}
-
- /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-.footer-content__position-mob{
-    position: absolute;
-	left: 33px;
-	top: 1244px;   /* absolute + 1000px*/
-	}
-
-/* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-.footer-content__size-mob{
-	width: 317px;
-	height: 200px;
-    }
-
-
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.list1{
-	margin: 0 40px 0 0;
-}
-
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.list2{
-	margin: 0 20px 0 0;
-}
-
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.line1{
-	position: absolute;
-	width: 357px;
-	height: 1px;
-	left: 31px;
-	top: 1475px;   /* absolute + 1000px*/
-}
-
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.footer-text{
-	position: absolute;
-	font-weight: 500;
-	font-size: 12px;
-	line-height: 16px;
-	letter-spacing: 0.4px;
-	color: rgba(255, 255, 255, 0.8);
-}
-
-.footer-text__position-mob{
-    left: 31px;
-    top: 1499px;   /* absolute + 1000px*/}
-
-/* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-.footer-text__size-mob{
-	width: 357px;
-    height: 162px;
-    }
-
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.line2{
-	position: absolute;
-	width: 357px;
-	height: 1px;
-	left: 31px;
-	top: 1661px;   /* absolute + 1000px*/
-}
-
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.footer-condition{
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	position: absolute;
-	width: 317px;
-	height: 200px;
-	left: 33px;
-	top: 1695px;   /* absolute + 1000px*/
-	color: #FFFFFF;
-	flex: none;
-
-}
-.footer-condition span{
-    padding-right: 40px;
-}
-/* Переробити
-.button span:first-child{
-	margin: 0 30px 0 0;
-}
-.button span:last-child{
-	margin: 0 20px 0 0;
-}
-*/
-
-.line3{
-	position: absolute;
-	width: 357px;
-	height: 1px;
-	left: 31px;
-	top: 1714px;   /* absolute + 1000px*/
-}
-
-/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-.footer-copyright{
-	position: absolute;
-	width: 306px;
-	height: 16px;
-	left: 30px;
-	top: 1730px;   /* absolute + 1000px*/
-	font-style: normal;
-	font-weight: 500;
-	font-size: 12px;
-	line-height: 16px;
-	color: rgba(255, 255, 255, 0.8);
-}
-  
