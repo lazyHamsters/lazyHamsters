@@ -52,19 +52,21 @@
 ### Топографія та визначення кольорової палітри:
    
    **Топографія**
-   | Вигляд блоку/елементу на сайті  | 
+   | Основним шрифтом є "Catamaran" | 
    |:-------------------------------: |
    | ![Font type 1](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Font_1.png "Один з запропонованих кольорів палітри")    | 
 
-**Особливості підключення в HTML5**
-```<head>
+***Особливості підключення в HTML5***
+```
+<head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
-</head>``` 
+</head>
+``` 
 
- **Особливості підключення в CSS3**
-   
+ ***Особливості підключення в CSS3***
+   На розсуд користувача, шляхом додавання відповідних полів *font-family, font-size, font-style, *, до відповідних елементів.
    
    **Кольорова палітра** - в основному присутнні білі, зелені, сірі кольори таїх відтінки:**
    
