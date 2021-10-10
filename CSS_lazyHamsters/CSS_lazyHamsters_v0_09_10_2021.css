@@ -25,6 +25,7 @@ body{
     font-weight: 500;
 }
 
+/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
 .img-lh_v1{
     height: 100px;
     width: 100px;
@@ -33,7 +34,7 @@ body{
     background-color: #197069;
     border-radius: 25px;
 }
-
+/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
 .img-lh_v2{
     height: 100px;
     width: 100px;
@@ -44,215 +45,58 @@ body{
 }
 
 
-
-
-
-
-/* for example kill */
-.block-lh-type0_size{
-    width: 358px;
-    height: 78px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .main-info {
-        height: 500px;
-        /*margin-top: 0px;*/
-        background: url('../img/svg/dude 1.svg') #11B55B bottom right no-repeat;
+/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.text-lh_v1{
+    color: white;
+    font-size: 15px;
     }
-
-
-
-
-img-lh_v0{
-
+/* Опис стилю button, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.button-ls_v0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px; 32px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #11B55B;
+    color: white;
+    font-size: 20px;
+    /* fixed part*/
+    width: 180px;
+    height: 48px;
 }
 
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-    .mob {
-        width: 414px;
-        /* margin: 0 auto; */
-        background: white;
-    }
+.button-ls_v0:hover {
+    border: 2px solid #197069;
+    background-color: #197069;
+}
 
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-    .display-inline {
-        display: inline-block;
-    }
-
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-    .main-nav{
-        padding: 18px;
-    }
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-
-
-
-    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .m-i-title__position-mob{
-        position: absolute;
-        left: 18px;
-        top: 85px;
-    }
-
-    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-    .m-i-title__size-mob{
-        width: 358px;
-        height: 78px;
-    }
-
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-    .main-info__text{
-        color: white;
-        font-size: 15px;
-    }
-
-    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .m-i-text__position-mob{
-        position: absolute;
-        left: 18px;
-        top: 190px;
-    }
-
-    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-    .m-i-text__size-mob{
-        width: 375px;
-        height: 124 px;
-    }
-
-    .main-info__button{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 12px; 32px;
-        border: 2px solid white;
-        box-sizing: border-box;
-        border-radius: 8px;
-        background-color: #11B55B;
-        color: white;
-        font-size: 20px;
-    }
-
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-    .main-info__button:hover {
-        border: 2px solid #197069;
-        background-color: #197069;
-    }
-
-    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .first{
-        position: absolute;
-        left: 18px;
-        top: 305px;
-    }
-
-    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .second{
-        position: absolute;
-        left: 18px;
-        top: 365px;
-    }
-
-    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-    .m-i-button__size-mob{
-        width: 180px;
-        height: 48px;
-
-    }
-
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-    .icon {
-        margin-left: 70px;
-    }
-
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-    .list {
-        padding: 1px 0;
-        margin-left: 20px;
-        border: none;
-        width: 22px;
-        height: 22px;
+/* Опис стилю hr, є базовим елементом стилізації (бібліотеки стилю)*/
+.hr-lh_v0 {
+    border: none; /* Прибираємо границі */
+    background-color: #197069; /* Колір лінії */
+    height: 2px; /* Товщина лінії */
+    border-radius: 1px;
+    margin: 4px 0;
    }
 
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .list:hover {
-        background-color: #197069; /* Колір лінії */
+/* Опис стилю елемента <div>, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.div-lh_v0{
+    width: 10px;
+    height: 10px;
+    background-color: #197069;
+    border-radius: 6px;
+    border: 1px solid #197069;
    }
 
-
-
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   hr {
-        border: none; /* Прибираємо границі */
-        background-color: #197069; /* Колір лінії */
-        height: 2px; /* Товщина лінії */
-        border-radius: 1px;
-        margin: 4px 0;
+.div-lh_v0:hover{
+    background-color: #A5DD06;
+    border: 1px solid #A5DD06;
    }
 
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .ellipse{
-        width: 10px;
-        height: 10px;
-        background-color: #197069;
-        border-radius: 6px;
-        border: 1px solid #197069;
-   }
-
-    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .ellipse__position-mob{
-        position: absolute;
-        left: 30px;
-        top: 550px;
-    }
-
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .ellipse:hover{
-        background-color: #A5DD06;
-        border: 1px solid #A5DD06;
-   }
-
-   /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-   .ellipse__position-mob:nth-child(1){
-        left: 30px;
-        top: 550px;
-   }
-
-   /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-   .ellipse__position-mob:nth-child(2){
-       left: 50px;
-       top: 550px;
-      }
-
-   /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-   .ellipse__position-mob:nth-child(3){
-       left: 70px;
-       top: 550px;
-   }
-
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .about {
-       height: 437px;
-       top: 573px;
-       background: rgba(25, 112, 105, 0.1);
-   }
-
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .about__content-title {
-       position: absolute;
+/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.text-title-lh_v1 {
        font-family: Catamaran;
        font-style: normal;
        font-weight: bold;
@@ -262,21 +106,8 @@ img-lh_v0{
        color: #197069;
    }
 
-    /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
-    .about__content-title-position-mob{
-        left: 15px;
-        top: 600px;
-        }
-
-    /* Опис розміру елемента, може бути змінений в залежності від структури макету*/
-    .about__content-title-size-mob{
-        width: 384px;
-        height: 30px;
-    }
-
-   /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-   .about__content-text {
-       position: absolute;
+/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.text-title-lh_v2 {
        font-family: Catamaran;
        font-style: normal;
        font-weight: normal;
@@ -285,6 +116,8 @@ img-lh_v0{
        text-align: center;
        color: #5B5B5B;
    }
+
+
     /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
     .about__content-text-position-mob{
         left: 15px;

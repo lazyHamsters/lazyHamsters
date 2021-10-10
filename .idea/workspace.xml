@@ -4,7 +4,6 @@
     <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #1 to See!!!">
       <change beforePath="$PROJECT_DIR$/CSS_lazyHamsters/CSS_lazyHamsters_v0_09_10_2021.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_lazyHamsters/CSS_lazyHamsters_v0_09_10_2021.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS_lazyHamsters/index_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_lazyHamsters/index_example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/Vector.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Index.html from hmst_19">
-      <created>1633600293158</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1633600293158</updated>
     </task>
     <task id="LOCAL-00022" summary="Index.html from hmst_19">
       <created>1633601145537</created>
@@ -408,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633841146938</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Version #1 to See!!!">
+      <created>1633847773422</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1633847773422</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="UnknownFeatures">
