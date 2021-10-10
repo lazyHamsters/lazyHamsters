@@ -85,6 +85,15 @@
    | Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5/CSS3| Примітки |
    |:-------------------------------: | :-------------| :-------------|
    | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | Підключення відповідного класу **img-lh_v0** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
+
+*Стилізація в CSS*
+```
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+</head>
+``` 
    
 
 ### Стилістика для посилань:
