@@ -56,10 +56,10 @@
    
    | Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5| Особливості підключення в CSS3| Примітки |
    |:-------------------------------: |:-------------------------------| :-------------| :-------------|
-   | ![Приклад 1](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_1.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
-   | ![Приклад 2](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_2.png "Один з запропонованих кольорів палітри")    | через CSS3 |  |  |
-   | ![Приклад 3](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_3.png "Один з запропонованих кольорів палітри")    | через CSS3 |  |  |
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | через CSS3 |  |  |
+   | ![Приклад 1](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_1.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#11B55B** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
+   | ![Приклад 2](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_2.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#11B55B** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
+   | ![Приклад 3](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_3.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#11B55B** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
+   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#FFFFFF** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
     
    
 
