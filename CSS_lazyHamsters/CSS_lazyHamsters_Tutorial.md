@@ -16,7 +16,7 @@
    
    [Our Site example](https://lazyhamsters.github.io/lazyHamsters/)
            
-   В результаті роботи створено бібліотеку стилів (у вигляді файлу "main.css"): 
+   В результаті роботи створено бібліотеку стилів (у вигляді файлу "CSS_lazyHamsters_v0_09_10_2021.css"): 
       
    [Our "CSS_lazyHamsters_v0"](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_lazyHamsters_v0_09_10_2021.css)
 
