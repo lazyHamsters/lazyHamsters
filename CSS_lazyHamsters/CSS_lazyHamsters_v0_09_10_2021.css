@@ -1,8 +1,84 @@
+/*
+Для використання шрифту "Catamaran" їч необхідно попередньо підключити.
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+</head>
+*/
+
+
+
 
 /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
 body{
     background: gray;
     font-family: 'Catamaran', sans-serif;
+}
+
+/* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
+.block-lh-type0{
+    color: white;
+    font-size: 35px;
+    line-height: 1.25;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+}
+
+.img-lh_v1{
+    height: 100px;
+    width: 100px;
+    background-image: url('./img/png/dude.png');
+    border: 5px solid #197069;
+    background-color: #197069;
+    border-radius: 25px;
+}
+
+.img-lh_v2{
+    height: 100px;
+    width: 100px;
+    background-image: url('./img/png/dude.png');
+    border: 5px solid #197069;
+    background-color: #197069;
+    border-radius: 55px;
+}
+
+
+
+
+
+
+/* for example kill */
+.block-lh-type0_size{
+    width: 358px;
+    height: 78px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .main-info {
+        height: 500px;
+        /*margin-top: 0px;*/
+        background: url('../img/svg/dude 1.svg') #11B55B bottom right no-repeat;
+    }
+
+
+
+
+img-lh_v0{
+
 }
 
     /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
@@ -22,22 +98,8 @@ body{
         padding: 18px;
     }
     /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-    .main-info {
-        height: 500px;
-        /*margin-top: 0px;*/
-        background: url('../img/svg/dude 1.svg') #11B55B bottom right no-repeat;
-    }
 
-    /* Опис стилю елемента, немає змінюватись, є базовим елементом стилізації (бібліотеки стилю)*/
-    .main-info__title{
-        color: white;
-        width: 358px;
-        height: 78px;
-        font-size: 35px;
-        line-height: 1.25;
-        letter-spacing: 2.5px;
-        font-weight: 500;
-    }
+
 
     /* Опис позиції елемента, має бути змінена в залежності від структури макету*/
     .m-i-title__position-mob{
