@@ -82,17 +82,35 @@
 
 *Реалізовані кастомні рішення по даному напрямку*
    
-   | Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5/CSS3| Примітки |
-   |:-------------------------------: | :-------------| :-------------|
-   | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | Підключення відповідного класу **img-lh_v0** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
+ | Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5/CSS3| Примітки |
+ |:-------------------------------: | :-------------| :-------------|
+ | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | Підключення відповідного класу **img-lh_v1** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
 
 *Стилізація в CSS*
 ```
-<head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
-</head>
+.img-lh_v1{
+    height: 100px;
+    width: 100px;
+    background-image: url('./img/png/dude.png');
+    border: 5px solid #197069;
+    background-color: #197069;
+    border-radius: 25px;
+}
+``` 
+| Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5/CSS3| Примітки |
+ |:-------------------------------: | :-------------| :-------------|
+ | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | Підключення відповідного класу **img-lh_v2** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
+
+*Стилізація в CSS*
+```
+.img-lh_v2{
+    height: 100px;
+    width: 100px;
+    background-image: url('./img/png/dude.png');
+    border: 5px solid #197069;
+    background-color: #197069;
+    border-radius: 55px;
+}
 ``` 
    
 
