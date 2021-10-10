@@ -119,10 +119,5 @@
 ### Стилістика таблиць (в розробці):
 
 ### Стилістика для форм:
-
-| Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5| Особливості підключення в CSS3| Примітки |
-   |:-------------------------------: |:-------------------------------| :-------------| :-------------|
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    |  |  |  | 
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    |  |  |  | 
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    |  |  |  | 
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    |  |  |  | 
+   
+### Стилістика для решти елементів наведена в бібліотеці з відповідним описом
