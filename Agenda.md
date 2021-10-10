@@ -18,7 +18,7 @@
            
    В результаті роботи створено бібліотеку стилів (у вигляді файлу "main.css"): 
       
-   [Our "main.css"](https://github.com/lazyHamsters/lazyHamsters/blob/main/css/main.css)
+   [Our "CSS_lazyHamsters_v0"](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_lazyHamsters_v0_09_10_2021.css)
 
 ## Базові посилання:
 
@@ -51,21 +51,70 @@
   
 ### Топографія та визначення кольорової палітри:
    
+   **Топографія**
+   | Основним шрифтом є "Catamaran" | 
+   |:-------------------------------: |
+   | ![Font type 1](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Font_1.png "Один з запропонованих кольорів палітри")    | 
+
+***Особливості підключення в HTML5***
+```
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+</head>
+``` 
+
+ ***Особливості підключення в CSS3***
+   На розсуд користувача, шляхом додавання відповідних полів *font-family, font-size, font-style* та їх значень, до відповідних елементів стилізації.
    
-   **Кольорова палітра** - в основному присутнні білі, зелені, сірі кольори таїх відтінки:**
+   **Кольорова палітра** - в основному присутнні білі, зелені, сірі кольори та їх відтінки:
    
    | Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5| Особливості підключення в CSS3| Примітки |
    |:-------------------------------: |:-------------------------------| :-------------| :-------------|
-   | ![Приклад 1](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_1.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#11B55B** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
-   | ![Приклад 2](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_2.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#E7F0F0** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
-   | ![Приклад 3](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_3.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#197069** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
-   | ![Приклад 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#FFFFFF** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
+   | ![Color type 1](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_1.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#11B55B** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
+   | ![Color type 2](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_2.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#E7F0F0** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
+   | ![Color type 3](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_3.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#197069** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
+   | ![Color type 4](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | через CSS3 | Додати значення **#FFFFFF** до відповідної властивості: *color, border, background-color, background-color,background*  | на розсуд користувача | 
     
+### Стилістика зображення:
+**Чітких правил тут немає, є деякі рекомендації** *, а саме зосередитись на використанні форматів ".png" та ".svg", не забувати додавати ваш логотип/іконку до назви сайту, що відображається в закладці*
+
+*Реалізовані кастомні рішення по даному напрямку*
+   
+ | Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5/CSS3| Примітки |
+ |:-------------------------------: | :-------------| :-------------|
+ | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | Підключення відповідного класу **img-lh_v1** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
+
+*Стилізація в CSS*
+```
+.img-lh_v1{
+    height: 100px;
+    width: 100px;
+    background-image: url('./img/png/dude.png');
+    border: 5px solid #197069;
+    background-color: #197069;
+    border-radius: 25px;
+}
+``` 
+| Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5/CSS3| Примітки |
+ |:-------------------------------: | :-------------| :-------------|
+ | ![Фото користувача](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Color_4.png "Один з запропонованих кольорів палітри")    | Підключення відповідного класу **img-lh_v2** | Даний приклад, цітко прив'язано до розміру, тому при використанні, розмір потрібно перевизначити | 
+
+*Стилізація в CSS*
+```
+.img-lh_v2{
+    height: 100px;
+    width: 100px;
+    background-image: url('./img/png/dude.png');
+    border: 5px solid #197069;
+    background-color: #197069;
+    border-radius: 55px;
+}
+``` 
    
 
-### Стилістика зображення:
-
-### Стилістика для форм:
+### Стилістика для посилань:
 
 ### Стилістика таблиць (в розробці):
 
