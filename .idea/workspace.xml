@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #1 to See!!!">
-      <change afterPath="$PROJECT_DIR$/CSS_lazyHamsters/CSS_lazyHamsters_Tutorial.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS_lazyHamsters/CSS_lazyHamsters_v0_09_10_2021.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_lazyHamsters/CSS_lazyHamsters_v0_09_10_2021.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS_lazyHamsters/index_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_lazyHamsters/index_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00023" summary="MOB_Header was add!">
-      <created>1633603225876</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1633603225876</updated>
     </task>
     <task id="LOCAL-00024" summary="MOB_Header was add!">
       <created>1633603661419</created>
@@ -408,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633849842282</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Version #1 to See!!!">
+      <created>1633855728680</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1633855728680</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="UnknownFeatures">
