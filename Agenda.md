@@ -55,11 +55,11 @@
    | Вигляд блоку/елементу на сайті  | Особливості підключення в HTML5| Особливості підключення в CSS3| Примітки |
    |:-------------------------------: |:-------------------------------| :-------------| :-------------|
    | ![Font type 1](https://github.com/lazyHamsters/lazyHamsters/blob/main/CSS_lazyHamsters/CSS_examples/Font_1.png "Один з запропонованих кольорів палітри")    | 
-<head>
+'''<head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
-</head> |  |  | 
+</head>''' |  |  | 
    
    
    
