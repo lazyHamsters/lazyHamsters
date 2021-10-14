@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+.learn {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(25, 112, 105, 1);
+	position: absolute;
+	width: 420px;
+	height: 1070px;
+	left: 33.3%;
+}
+.container {
+	max-width: 360px;
+	margin: 0px auto;
+}
+.intellectus {
+	padding: 25px 0;
+}
+.intellectus__column {
+	display: flex;
+	flex-direction: column;
+}
+.intellectus__text {
+	color: #ffffff;
+	letter-spacing: 0.4px;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 24px 0;
+}
+.container {
+	max-width: 360px;
+	margin: 0px auto;
+}
+.list__row {
+	display: flex;
+}
+.list__body1 {
+	padding: 0px 0px 25px 0px;
+}
+.list__title {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+}
+.list__li {
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 20px;
+}
+.list__body2 {
+	padding: 0px 0px 0px 40px;
+}
+.container {
+	max-width: 360px;
+	margin: 0px auto;
+}
+.contact__row {
+	display: flex;
+}
+.contact__body1 {
+	padding: 0px 0px 15px 0px;
+}
+.contact__title {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	margin: 0px 0px 15px 0px;
+}
+.adres {
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.adres li {
+	background: url("../img/contact/Vector.svg") left no-repeat;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 10px 0px;
+}
+.contact__body2 {
+	padding: 35px 0px 0px 90px;
+}
+.namber {
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.namber li {
+	background: url("../img/contact/Vector2.svg") left no-repeat;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 10px 0px;
+}
+.Kaunas__body1 {
+	padding: 0px 0px 15px 0px;
+}
+.contact__title__Kaunas {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	margin: 0px 0px 15px 0px;
+}
+.adres__Kaunas {
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 20px;
+}
+.adres__Kaunas li {
+	background: url("../img/contact/Vector.svg") left no-repeat;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 10px 0px;
+}
+.contact__body2__Kaunas {
+	padding: 35px 0px 0px 76px;
+}
+.namber__Kaunas {
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 20px;
+}
+.namber__Kaunas li {
+	background: url("../img/contact/Vector2.svg") left no-repeat;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 10px 0px;
+}
+.contact__title__Klaipėda {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	margin: 0px 0px 15px 0px;
+}
+.adres__Klaipėda {
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 20px;
+}
+.adres__Klaipėda li {
+	background: url("../img/contact/Vector.svg") left no-repeat;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 10px 0px;
+}
+.contact__body2__Klaipėda {
+	padding: 35px 0px 25px 116px;
+}
+.namber__Klaipėda {
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 20px;
+}
+.namber__Klaipėda li {
+	background: url("../img/contact/Vector2.svg") left no-repeat;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 10px 0px;
+}
+.container {
+	max-width: 360px;
+	margin: 0px auto;
+}
+.footer__column {
+	display: flex;
+}
+.footer__body {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.4px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.footer__text1 {
+	padding: 0px 0px 15px 0px;
+}
+.intellectus__image2 {
+}
+.columns__container {
+	display: flex;
+	flex-direction: row;
+}
+.columns__column {
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.3px;
+	padding: 0px 0px 15px 0px;
+}
+.Sąlygos {
+	margin: 0 25px;
+}
