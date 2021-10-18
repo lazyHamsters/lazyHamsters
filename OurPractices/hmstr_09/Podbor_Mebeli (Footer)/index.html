@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <footer>
+      <div class="title">
+        <h2 class="bold-text title-text">
+          Ви завжди можете прийти до нас в офіс для особистого знайомства
+        </h2>
+        <p class="normal-text title-text">
+          ми з радістю Вас зустрінемо і обговоремо умови роботи
+        </p>
+      </div>
+      <p class="normal-text normal-text_form">
+        Заповніть форму, щоб записатися на прийом в офісі
+      </p>
+      <section class="wrapper">
+        <div class="contact">
+          <div class="contact-form">
+            <form action="#">
+              <div class="form">
+                <div class="form-item form-item_first">
+                  <label for="name">Введіть Ваше ім'я</label>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Наприклад, Дмитро"
+                    maxlength="15"
+                  />
+                </div>
+                <div class="form-item form-item_second">
+                  <label for="number">Введіть Ваш телефон</label>
+                  <input
+                    type="tel"
+                    name="number"
+                    id="phone"
+                    placeholder="(000) 000-00-00"
+                  />
+                  <br />
+                </div>
+                <div class="form-item form-item_third">
+                  <button type="submit" class="welcome-btn bold-text">
+                    Завітати до офісу
+                  </button>
+                  <p class="normal-text form-accept">
+                    Натискаючи на кнопку, Ви даєте згоду на обробку персональних
+                    даних та погоджуєтеся з
+                    <a href="#">політикою конфіденційності</a>
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="adress">
+          <div>
+            <h3 class="bold-text bold-text_conact">Адреса офісу:</h3>
+            <p class="normal-text adress-text">
+              м. Полтава, вулиця Соборності, 28/13
+            </p>
+          </div>
+          <div>
+            <h3 class="bold-text bold-text_conact">Контакти:</h3>
+            <p class="normal-text adress-text">
+              055-555-55-55<br />info@domeo.ua
+            </p>
+          </div>
+          <div>
+            <h3 class="bold-text bold-text_conact">Графік роботи:</h3>
+            <p class="normal-text adress-text">
+              З 9.00 до 22.00<br />без вихідних
+            </p>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10345.610395970874!2d34.55020607112824!3d49.5901568664046!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f5f8725f449%3A0x8fa3f4a909967893!2z0KLQvtGA0LPQvtCy0LjQuSDQtNGW0Lwg0KbQo9Cc!5e0!3m2!1suk!2sua!4v1634457183155!5m2!1suk!2sua"
+            class="map-item"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </footer>
+    <script>
+      document.getElementById('phone').addEventListener('input', function (e) {
+        let x = e.target.value
+          .replace(/\D/g, '')
+          .match(/(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+        e.target.value = !x[2]
+          ? x[1]
+          : '( ' +
+            x[1] +
+            ' ) ' +
+            x[2] +
+            (!x[3] ? '' : ' - ' + x[3]) +
+            (!x[4] ? '' : ' - ' + x[4]);
+      });
+    </script>
+  </body>
+</html>
