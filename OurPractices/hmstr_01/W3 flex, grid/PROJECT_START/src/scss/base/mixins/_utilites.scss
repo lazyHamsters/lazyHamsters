@@ -1,0 +1,29 @@
+
+@function em($target, $current: $baseFontSize) {
+  @return ($target / $current) * 1em;
+}
+
+@function rem($target) {
+  @return ($target / $baseFontSize) * 1rem;
+}
+
+@mixin e($element) {
+	&__#{$element} {
+		@content;
+	}
+}
+
+@mixin m($modifier) {
+	&_#{$modifier} {
+		@content;
+	}
+}
+
+
+@mixin mq($width) {
+    @media (min-width: $width) {
+      @content;
+    }
+}
+
+

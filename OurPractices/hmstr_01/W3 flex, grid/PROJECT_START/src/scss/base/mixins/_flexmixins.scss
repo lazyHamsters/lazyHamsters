@@ -1,0 +1,140 @@
+@mixin display($value) {
+   @if $value == "flex" {
+    display: -webkit-flex;
+    display: -ms-flexbox; // 2011 (IE 10)
+    display: flex;
+  } @else if $value == "inline-flex" {
+    display: -webkit-inline-flex;
+     display: -ms-inline-flexbox;
+    display: inline-flex;
+  } @else {
+    display: $value;
+  }
+}
+
+@mixin flex-direction($direction:row) {
+  -ms-flex-direction: $direction;
+  -webkit-flex-direction: $direction;
+  flex-direction: $direction;
+}
+
+@mixin flex-wrap($wrap:no-wrap) {
+  -ms-flex-wrap:$wrap;
+  -webkit-flex-wrap:$wrap;
+   flex-wrap:$wrap;
+}
+
+@mixin flex-flow($wrap:no-wrap, $direction:row) {
+  -ms-flex-flow: $direction $wrap;
+  -webkit-flex-flow: $direction $wrap;
+   flex-flow: $direction $wrap;
+}
+
+@mixin flex($n, $shrink:1, $basic:0) {
+    @if $n == "initial" {
+      -ms-flex: 0 1 auto;
+      -webkit-flex: 0 1 auto;
+      flex: 0 1 auto;
+    } @else if $n == "auto" {
+      -ms-flex: 1 1 auto;
+      -webkit-flex: 1 1 auto;
+      flex: 1 1 auto;
+    } @else if $n == "none" {
+      -ms-flex: 0 0 auto;
+      -webkit-flex: 0 0 auto;
+      flex: 0 0 auto;
+    } @else if $shrink == 1 and $basic == 0{
+      -ms-flex: $n;
+      -webkit-flex: $n;
+      flex: $n;
+    } @else {
+      -ms-flex: $n  $shrink  ($basic* 1%);
+      -webkit-flex: $n  $shrink  ($basic * 1%);
+      flex: 0 0   $n  $shrink  ($basic * 1%);
+    }
+}
+
+@mixin flex-grow($n: 0) {
+  -ms-flex-grow:$n;
+  -webkit-flex-grow:$n;
+  flex-grow:$n;
+}
+
+@mixin flex-shrink($n: 1) {
+  -ms-flex-shrink:$n;
+  -webkit-flex-shrink:$n;
+  flex-shrink:$n;
+}
+
+@mixin flex-basis($width: auto) {
+  -ms-flex-basis:$width;
+  -webkit-flex-basis:$width;
+  flex-basis:$width;
+}
+
+@mixin justify-content($value: flex-start) {
+  // Alt values.
+  $alt-value: $value;
+  @if $value == "flex-start" {
+    $alt-value: start;
+  } @else if $value == "flex-end" {
+    $alt-value: end;
+  } @else if $value == "space-between" {
+    $alt-value: justify;
+  } @else if $value == "space-around" {
+    $alt-value: distribute;
+  }
+
+  -ms-flex-pack: $alt-value;
+  -webkit-justify-content:$value;
+  justify-content:$value;
+}
+
+@mixin align-items($value: stretch) {
+
+  $alt-value: $value;
+  @if $value == "flex-start" {
+    $alt-value: start;
+  } @else if $value == "flex-end" {
+    $alt-value: end;
+  }
+  -ms-flex-align: $alt-value;
+  -webkit-align-items: $value;
+  align-items: $value;
+}
+
+@mixin align-self($value: auto) {
+  $value-2011: $value;
+  @if $value == "flex-start" {
+    $value-2011: start;
+  } @else if $value == "flex-end" {
+    $value-2011: end;
+  }
+
+  -ms-flex-item-align: $value-2011;
+  -webkit-align-self: $value;
+  align-self: $value;
+}
+@mixin align-content($value: stretch) {
+
+  $value-2011: $value;
+  @if $value == "flex-start" {
+    $value-2011: start;
+  } @else if $value == "flex-end" {
+    $value-2011: end;
+  } @else if $value == "space-between" {
+    $value-2011: justify;
+  } @else if $value == "space-around" {
+    $value-2011: distribute;
+  }
+
+  -ms-flex-line-pack: $value-2011;
+  -webkit-align-content: $value;
+  align-content: $value;
+}
+
+@mixin order($int: 0) {
+  -ms-flex-order: $int;
+  -webkit-order: $int;
+  order: $int;
+}
