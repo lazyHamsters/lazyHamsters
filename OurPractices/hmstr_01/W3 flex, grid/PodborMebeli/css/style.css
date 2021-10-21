@@ -48,12 +48,16 @@ body{
 
 .conditions,
 .stages,
-.employment{
+.employment,
+.employment__salory,
+.employment__fourSteps{
   padding: 100px 0px 10px;
+  height: auto;
 }
 .conditions__title,
 .stages__title,
-.employment__salory-title{
+.employment__salory-title,
+.employment__fourSteps-title{
   font-family: Muller;
   font-style: normal;
   font-weight: bold;
@@ -64,7 +68,8 @@ body{
 .conditions__subtitle,
 .stages__subtitle,
 .employment__contact-subtitle,
-.employment__salory-subtitle{
+.employment__salory-subtitle,
+.employment__fourSteps-subtitle{
   font-family: Muller;
   font-style: normal;
   font-weight: normal;
@@ -247,41 +252,107 @@ body{
   max-width: 800px;
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 40px auto 0px;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
   grid-column-gap: 30px;
 }
 .contact__form-grid1{
-  grid-row: 1/2;
-  grid-column: 1/5;
+  grid-column: 1;
+  grid-row: 1;
+  
 }
 .contact__form-grid2{
-  grid-row: 2/span 3;
-  grid-column: 1/5;
+  grid-row: 2;
+  grid-column: 1;
+  
 }
 .contact__form-grid3{
-  grid-row: 1/2;
-  grid-column: 5/9;
-  justify-content: center;
-  align-items: center;
+  grid-row: 1;
+  grid-column: 2;
 }
 .contact__form-grid4{
-  grid-row: 2/3;
-  grid-column: 5/9;
+  grid-row: 2;
+  grid-column: 2;
 }
 .contact__form-grid5{
-  grid-row: 2/3;
-  grid-column: 9/13;
-  
-  background-color: #479ff1;
+  grid-row: 2;
+  grid-column: 3;
 }
 .contact__form-grid6{
-  grid-row: 3/4;
-  grid-column: 9/13;
-  background-color: #FFCF10;
+  grid-row: 3;
+  grid-column: 3;
 }
+.form__name-label{
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+.contact__form input{
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #BDBDBD;
+  padding-left: 15px;
+  border-radius: 8px;
+  width: auto;
+  height: 70px;
+  border: 1px solid #828282;
+}
+.form__contact-btn{
+ width: 100%;
+ height: 70px;
+ color: #ffffff;
+ text-transform: uppercase;
+ border-radius: 8px;
+ background: #2F80ED;
+ box-shadow: 4px 12px 40px rgba(47, 128, 237, 0.35);
+}
+.form__btn-subtext{
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+.form__btn-subtext>span{
+  color: rgba(47, 128, 237);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BUTTON*/
+.form__contact-btn,
+.salory__form-btnNext,
+.salory__form-radio>input{
+  cursor: pointer;
+  transition: all .3s linear;
+}
+.form__contact-btn:hover,
+.salory__form-btnNext:hover{
+  transition: all .3s linear;
+  font-size: 18px;
+}
+/*BUTTON End*/
+
 
 .salory__form{
   max-width: 800px;
@@ -355,6 +426,86 @@ body{
 
 
 
+.employment__fourSteps-block{
+  width: 100%;
+  height: auto;
+  margin: 40px 0 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 85px);
+  grid-column-gap: 2%;
+}
+.employment__fourSteps-grid1{
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.employment__fourSteps-grid2{
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.employment__fourSteps-grid3{
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+.employment__fourSteps-grid4{
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+.employment__fourSteps-elem{
+  position: relative;
+  border: 1px solid #FFCF10;
+  border-radius: 4px;
+  justify-items: center;
+  align-items: center;
+  padding: 25px 20px 20px;
+}
+.employment__fourSteps-number{
+  position: absolute;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #2F80ED;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 5;
+  left: 25px;
+  top: -25px;
+  border: 1px solid #FFCF10;
+}
+.employment__fourSteps-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.employment__fourSteps-text{
+  width: auto;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+}
+.employment__fourSteps-icon{
+  width: auto;
+  height: 30px;
+  margin-left: 3px;
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 999px){
   .stages__content{
     flex-direction: column;
@@ -407,21 +558,102 @@ body{
   .inform__block{
     width: 90%;
   }
+
+  .contact__form{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 30px;
+  }
+  .contact__form-grid1{
+    grid-row: 1;
+    grid-column: 1/3;
+  }
+  .contact__form-grid2{
+    grid-row: 2;
+    grid-column: 1/3;
+    
+  }
+  .contact__form-grid3{
+    grid-row: 1;
+    grid-column: 3/5;
+  }
+  .contact__form-grid4{
+    grid-row: 2;
+    grid-column: 3/5;
+  }
+  .contact__form-grid5{
+    grid-row: 3;
+    grid-column: 2/4;
+  }
+  .contact__form-grid6{
+    grid-row: 4;
+    grid-column: 2/4;
+  }
+  .form__btn-subtext{
+    padding-top: 0px;
+  }
+
+
+  .salory__form-grid1{
+    grid-row: 1/2;
+    grid-column: 1/13;
+  }
+  .salory__form-grid2{
+    grid-row: 2/3;
+    grid-column: 1/13;
+  }
+  .salory__form-grid3{
+    grid-row: 3/4;
+    grid-column: 6/10;
+  }
+  .salory__form-grid4{
+    grid-row: 4/5;
+    grid-column: 8/12;
+    
+  }
+  .employment__fourSteps-block{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 85px);
+    grid-gap: 20% 2%;
+  }
+  .employment__fourSteps-grid1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .employment__fourSteps-grid2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .employment__fourSteps-grid3{
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .employment__fourSteps-grid4{
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
 }
 
 @media (max-width: 375px){
   .conditions,
-  .stages{
+  .stages,
+  .employment,
+  .employment__fourSteps,
+  .employment__fourSteps{
     padding: 80px 0px 5px;
   }
   .conditions__title,
-  .stages__title{
+  .stages__title,
+  .employment__salory-title,
+  .employment__fourSteps-title{
     font-weight: bold;
     font-size: 28px;
     line-height: 28px;
   }
   .conditions__subtitle,
-  .stages__subtitle{
+  .stages__subtitle,
+  .employment__salory-subtitle,
+  .employment__fourSteps-subtitle{
     font-size: 16px;
     line-height: 22px;
   }
@@ -464,6 +696,97 @@ body{
   .stages__img{
     display: none;
   }
-}
 
+  .salory__form-grid3{
+    grid-row: 3/4;
+    grid-column: 5/10;
+  }
+  .salory__form-grid4{
+    grid-row: 4/5;
+    grid-column: 7/13;
+    
+  }
+  .salory__form-inp{
+    margin: 20px 0 40px;
+  }
+  .employment__fourSteps-block{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 85px);
+    grid-gap: 10% 0%;
+    height: auto;
+  }
+  .employment__fourSteps-grid1{
+    grid-row: 1/2;
+    grid-column: 1/3;
+  }
+  .employment__fourSteps-grid2{
+    grid-row: 2/3;
+    grid-column: 1/3;
+  }
+  .employment__fourSteps-grid3{
+    grid-row: 3/4;
+    grid-column: 1/3;
+  }
+  .employment__fourSteps-grid4{
+    grid-row: 4/5;
+    grid-column: 1/3;
+  }
+  .employment__fourSteps-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .employment__fourSteps-text{
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .employment__fourSteps-elem{
+    padding-left: 20%;
+  }
+  .contact__form{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 0px;
+  }
+  .contact__form-grid1{
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .contact__form-grid2{
+    grid-row: 2;
+    grid-column: 1;
+    
+  }
+  .contact__form-grid3{
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .contact__form-grid4{
+    grid-row: 4;
+    grid-column: 1;
+  }
+  .contact__form-grid5{
+    grid-row: 5;
+    grid-column: 1;
+  }
+  .contact__form-grid6{
+    grid-row: 6;
+    grid-column: 1;
+  }
+  .form__name-label,
+  .form__phone-label{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 15px;
+  }
+  .form__phone-inp,
+  .form__name-inp{
+    margin-top: 5px;
+  }
+  .form__contact-btn{
+    margin-top: 10px;
+  }
+}
 
