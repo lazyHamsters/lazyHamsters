@@ -137,23 +137,19 @@ footer {
 
   .form-item_first {
     grid-column: 1;
-    grid-row: 1;
   }
 
   .form-item_second {
     grid-column: 2;
-    grid-row: 1;
   }
 
   .form-item_third {
     grid-column: 1 / span 2;
-    grid-row: 2;
   }
 
   .adress {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1/3;
   }
 }
 
