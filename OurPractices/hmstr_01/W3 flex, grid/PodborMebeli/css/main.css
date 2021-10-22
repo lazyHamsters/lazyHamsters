@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+header{
+    width: 100%;
+    height: 720px;
+}
+
+.logo-black {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 352px;
+    top: 40px;
+}
+
+.vector {
+    position: absolute;
+    left: 0.08%;
+    right: 40.61%;
+    top: 0.06%;
+    bottom: 0.12%;
+    border: 2px solid;
+    color: #FFCF10;
+    ;
+}
+
+.vector-logo {
+    position: absolute;
+    width: 71.29px;
+    height: 12.85px;
+    left: 28.62px;
+    top: 21.24px;
+
+}
+
+.logo-name {
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.nav-text {
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    left: 130px;
+    top: 22px;
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+
+}
+
+.nav-mobile {
+    position: absolute;
+    width: 219px;
+    height: 34px;
+    left: 637px;
+    top: 15px;
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #333333;
+}
+
+.nav-btn {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 850px;
+    right: 0%;
+    top: 15px;
+    bottom: 0%;
+    border: 2px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.button-text {
+    position: absolute;
+    left: 5px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2F80ED;
+
+}
+
+.content-text {
+    position: absolute;
+    width: 708px;
+    height: 112px;
+    left: 348px;
+    top: 176px;
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.content-paragraph {
+    position: absolute;
+    width: 677px;
+    height: 78px;
+    left: 352px;
+    top: 340px;
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 130%;
+    color: #4F4F4F;
+}
+
+.logo-girl {
+    position: absolute;
+    left: 1100px;
+    top: 120px;
+    background: url(YellowGirl.jpg);
+}
+
+.star-one {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 352px;
+    top: 526px;
+}
+
+.star-one-paragraph {
+    position: absolute;
+    width: 191px;
+    height: 44px;
+    left: 404px;
+    top: 524px;
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.star-two {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 352px;
+    top: 598px;
+}
+
+.star-two-paragraph {
+    position: absolute;
+    width: 260px;
+    height: 44px;
+    left: 404px;
+    top: 596px;
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.star-three {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 736px;
+    top: 526px;
+}
+
+.star-three-paragraph {
+    position: absolute;
+    width: 190px;
+    height: 44px;
+    left: 788px;
+    top: 525px;
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.star-four {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 736px;
+    top: 598px;
+}
+
+.star-four-paragraph {
+    position: absolute;
+    width: 203px;
+    height: 44px;
+    left: 788px;
+    top: 596px;
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+.btn-ask {
+    position: absolute;
+    width: 284px;
+    height: 52px;
+    left: 352px;
+    top: 650px;
+    background: #2F80ED;
+    box-shadow: 4px 12px 40px rgba(47, 128, 237, 0.35);
+    border-radius: 8px;
+}
+.btn-ask-paragraph {
+    position: absolute;
+    left: 20px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Scheherazade New', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
