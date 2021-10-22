@@ -1,122 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #1 to See!!!">
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/workspace.code-workspsce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBlack.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBlack.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBlack.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBlack.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBlackItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBlackItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerBoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerExtraBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerExtraBoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerExtraBoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerExtraBoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHairline.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHairline.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHairline.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHairline.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHairlineItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHairlineItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHairlineItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHairlineItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHeavy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHeavy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHeavy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHeavy.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHeavyItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHeavyItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHeavyItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerHeavyItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerLight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerLightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerLightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerLightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerMedium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerMedium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerMedium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerMedium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerMediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerMediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerMediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerMediumItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerRegular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerRegular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerRegular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerRegular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerRegularItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerRegularItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerRegularItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerRegularItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerThin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerThin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerThin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerThin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerThinItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerThinItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerThinItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerUltraLight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerUltraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerUltraLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerUltraLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerUltraLightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerUltraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerUltraLightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/MullerUltraLightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Vector (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Vector (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Vector (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Vector (4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Vector (5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Vector.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/YellowGirl 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/noun_Star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/table.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/International/02 Divider.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/Divider3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/Frame1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer/Frame2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/Image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/dude 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/png/dude 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Frame 29.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Frame.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Group.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Vector.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/dude 1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/dude 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #2 to See!!!">
+      <change afterPath="$PROJECT_DIR$/CSS_lazyHamsters/mainIdea.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,15 +40,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSS_lazyHamsters" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\IT_Bro\lazyHamsters\CSS_lazyHamsters" />
       <recent name="E:\Project\IT_Bro\lazyHamsters\Week_03" />
       <recent name="E:\Project\IT_Bro\lazyHamsters\img" />
       <recent name="E:\Project\IT_Bro\lazyHamsters" />
       <recent name="E:\Project\IT_Bro\lazyHamsters\css" />
-      <recent name="E:\Project\IT_Bro\lazyHamsters\Week_02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Project\IT_Bro\lazyhamsters" />
@@ -176,13 +62,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Add Logo!">
-      <created>1633609016885</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1633609016885</updated>
     </task>
     <task id="LOCAL-00026" summary="Add Logo!">
       <created>1633610409236</created>
@@ -520,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634908825404</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Version #2 to See!!!">
+      <created>1634909170365</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1634909170365</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -539,7 +425,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prepare for Week2" />
     <MESSAGE value="Prepare for Week2!" />
     <MESSAGE value="Add new folders." />
     <MESSAGE value="Add new Readme file." />
@@ -564,6 +449,7 @@
     <MESSAGE value="Version #1!" />
     <MESSAGE value="Version #1 to See!" />
     <MESSAGE value="Version #1 to See!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version #1 to See!!!" />
+    <MESSAGE value="Version #2 to See!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version #2 to See!!!" />
   </component>
 </project>
