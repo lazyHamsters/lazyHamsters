@@ -483,225 +483,6 @@ body {
   height: 30px;
   margin-left: 3px;
 }
-/* FOOTER*/
-footer input {
-  padding: 15px 30px;
-  border-radius: 8px;
-  border-color: #828282;
-  width: 100%;
-}
-
-footer input::placeholder {
-  text-align: center;
-}
-
-.contact-form > input,
-label {
-  display: block;
-  padding: 5px 0;
-}
-
-.contact-form > input {
-  padding: 10px 20px;
-}
-
-footer {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.bold-text {
-  font-family: 'Muller';
-  font-weight: bold;
-  font-style: normal;
-  font-size: 28px;
-}
-
-.normal-text {
-  font-family: 'Muller';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 16px;
-}
-
-.title {
-  margin-top: 40px;
-}
-
-.title-text {
-  margin: 0 16px;
-  padding-bottom: 12px;
-}
-
-.title-text_top {
-  margin-top: 140px;
-}
-
-.bold-text_conact {
-  font-size: 16px;
-}
-
-.normal-text_form {
-  margin: 0px 20px 35px;
-  font-weight: bold;
-}
-
-.form-item {
-  margin: 0 16px;
-}
-
-.welcome-btn {
-  background-color: #2f80ed;
-  border-color: #2f80ed;
-  color: #fff;
-  padding: 10px 10px;
-  font-size: 16px;
-  margin: 20px 0;
-  padding: 15px 45px;
-  border-radius: 8px;
-  box-shadow: 4px 12px 40px 0px #2f80ed59;
-}
-
-.form-accept {
-  padding: 0 16px;
-}
-
-.form-accept > a {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
-.adress {
-  background-color: #ffcf10;
-  margin: 40px 16px 10px;
-  padding: 20px 32px;
-  border-radius: 12px;
-  line-height: 30px;
-}
-
-.adress-text {
-  padding: 10px 0;
-}
-
-.bold-text_contact {
-  padding: 5px 0;
-}
-
-.map-item {
-  width: 100%;
-  max-height: 800px;
-  min-height: 700px;
-  height: 100%;
-  border: 0;
-  padding: 0 16px 16px;
-}
-
-@media only screen and (min-width: 768px) {
-  .form {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .form-item_first {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .form-item_second {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .form-item_third {
-    grid-column: 1 / span 2;
-    grid-row: 2;
-  }
-
-  .adress {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1/3;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .normal-text_form {
-    text-align: left;
-  }
-
-  input::placeholder {
-    text-align: left;
-  }
-
-  .contact-form > input,
-  label {
-    text-align: left;
-  }
-
-  .contact {
-    padding-right: 50px;
-  }
-
-  .welcome-btn {
-    width: 100%;
-  }
-
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-    margin-top: 40px;
-  }
-
-  .form {
-    display: block;
-  }
-
-  .adress {
-    display: block;
-    grid-column: 1;
-    grid-row: 2;
-    padding-bottom: 0;
-    margin-right: 50px;
-  }
-
-  .adress-text {
-    padding-bottom: 15px;
-  }
-
-  .map {
-    grid-column: 2;
-    grid-row: 1/3;
-  }
-  .map-item {
-    height: 100%;
-  }
-
-  .bold-text {
-    font-size: 32px;
-  }
-
-  .normal-text {
-    font-size: 20px;
-  }
-
-  .bold-text_conact {
-    font-size: 20px;
-  }
-
-  .welcome-btn {
-    font-size: 20px;
-  }
-  .welcome-btn:hover {
-    cursor: pointer;
-    transition: all 0.4s;
-    color: rgb(19, 18, 18);
-    background-color: #e78f1c;
-    border-color: #ee0a0a;
-  }
-}
-/* FOOTER END*/
 
 @media (max-width: 999px) {
   .stages__content {
@@ -979,3 +760,223 @@ footer {
     }
   }
 }
+
+/* FOOTER*/
+footer input {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border-color: #828282;
+  width: 100%;
+}
+
+footer input::placeholder {
+  text-align: center;
+}
+
+.contact-form > input,
+label {
+  display: block;
+  padding: 5px 0;
+}
+
+.contact-form > input {
+  padding: 10px 20px;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bold-text {
+  font-family: 'Muller';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.normal-text {
+  font-family: 'Muller';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.title {
+  margin-top: 40px;
+}
+
+.title-text {
+  margin: 0 16px;
+  padding-bottom: 12px;
+}
+
+.title-text_top {
+  margin-top: 140px;
+}
+
+.bold-text_conact {
+  font-size: 16px;
+}
+
+.normal-text_form {
+  margin: 0px 20px 35px;
+  font-weight: bold;
+}
+
+.form-item {
+  margin: 0 16px;
+}
+
+.welcome-btn {
+  background-color: #2f80ed;
+  border-color: #2f80ed;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 16px;
+  margin: 20px 0;
+  padding: 15px 45px;
+  border-radius: 8px;
+  box-shadow: 4px 12px 40px 0px #2f80ed59;
+}
+
+.form-accept {
+  padding: 0 16px;
+}
+
+.form-accept > a {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.adress {
+  background-color: #ffcf10;
+  margin: 40px 16px 10px;
+  padding: 20px 32px;
+  border-radius: 12px;
+  line-height: 30px;
+}
+
+.adress-text {
+  padding: 10px 0;
+}
+
+.bold-text_contact {
+  padding: 5px 0;
+}
+
+.map-item {
+  width: 100%;
+  max-height: 800px;
+  min-height: 700px;
+  height: 100%;
+  border: 0;
+  padding: 0 16px 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .form-item_first {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .form-item_second {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .form-item_third {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+
+  .adress {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1/3;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .normal-text_form {
+    text-align: left;
+  }
+
+  input::placeholder {
+    text-align: left;
+  }
+
+  .contact-form > input,
+  label {
+    text-align: left;
+  }
+
+  .contact {
+    padding-right: 50px;
+  }
+
+  .welcome-btn {
+    width: 100%;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 40px;
+  }
+
+  .form {
+    display: block;
+  }
+
+  .adress {
+    display: block;
+    grid-column: 1;
+    grid-row: 2;
+    padding-bottom: 0;
+    margin-right: 50px;
+  }
+
+  .adress-text {
+    padding-bottom: 15px;
+  }
+
+  .map {
+    grid-column: 2;
+    grid-row: 1/3;
+  }
+  .map-item {
+    height: 100%;
+  }
+
+  .bold-text {
+    font-size: 32px;
+  }
+
+  .normal-text {
+    font-size: 20px;
+  }
+
+  .bold-text_conact {
+    font-size: 20px;
+  }
+
+  .welcome-btn {
+    font-size: 20px;
+  }
+  .welcome-btn:hover {
+    cursor: pointer;
+    transition: all 0.4s;
+    color: rgb(19, 18, 18);
+    background-color: #e78f1c;
+    border-color: #ee0a0a;
+  }
+}
+/* FOOTER END*/
