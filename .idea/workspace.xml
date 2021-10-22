@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #2 to See!!!">
-      <change afterPath="$PROJECT_DIR$/CSS_lazyHamsters/mainIdea.md" afterDir="false" />
-    </list>
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,13 +60,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Add Logo!">
-      <created>1633610409236</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1633610409236</updated>
     </task>
     <task id="LOCAL-00027" summary="Add Logo!">
       <created>1633620187297</created>
@@ -406,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634909170365</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="3">
+      <created>1634909442791</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1634909442792</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -425,7 +423,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prepare for Week2!" />
     <MESSAGE value="Add new folders." />
     <MESSAGE value="Add new Readme file." />
     <MESSAGE value="Add new Working Folders for [] Serg." />
@@ -450,6 +447,7 @@
     <MESSAGE value="Version #1 to See!" />
     <MESSAGE value="Version #1 to See!!!" />
     <MESSAGE value="Version #2 to See!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version #2 to See!!!" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
 </project>
