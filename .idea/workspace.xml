@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="Version #1 to See!!!">
+    <list default="true" id="4d5b4168-4c36-4a83-9bbc-f4a3288e0254" name="Default Changelist" comment="3">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2021_7_18_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainIdea.md" beforeDir="false" afterPath="$PROJECT_DIR$/mainIdea.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +46,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Project\IT_Bro\lazyhamsters\CSS_lazyHamsters" />
-      <recent name="E:\Project\IT_Bro\lazyhamsters\css" />
-      <recent name="E:\Project\IT_Bro\lazyhamsters" />
-      <recent name="E:\Project\IT_Bro\lazyhamsters\OurPractices\hmstr_13\Week_02\img" />
-      <recent name="E:\Project\IT_Bro\lazyhamsters\Week_02" />
+      <recent name="E:\Project\IT_Bro\lazyHamsters\CSS_lazyHamsters" />
+      <recent name="E:\Project\IT_Bro\lazyHamsters\Week_03" />
+      <recent name="E:\Project\IT_Bro\lazyHamsters\img" />
+      <recent name="E:\Project\IT_Bro\lazyHamsters" />
+      <recent name="E:\Project\IT_Bro\lazyHamsters\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Project\IT_Bro\lazyhamsters" />
@@ -62,34 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632643014783</updated>
-    </task>
-    <task id="LOCAL-00024" summary="MOB_Header was add!">
-      <created>1633603661419</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1633603661419</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Add Logo!">
-      <created>1633609016885</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1633609016885</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Add Logo!">
-      <created>1633610409236</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1633610409236</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Add Logo!">
-      <created>1633620187297</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1633620187297</updated>
     </task>
     <task id="LOCAL-00028" summary="Add Logo!">
       <created>1633620215113</created>
@@ -406,7 +380,35 @@
       <option name="project" value="LOCAL" />
       <updated>1633855728680</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Version #1 to See!!!">
+      <created>1634908825403</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1634908825404</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Version #2 to See!!!">
+      <created>1634909170365</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1634909170365</updated>
+    </task>
+    <task id="LOCAL-00075" summary="3">
+      <created>1634909442791</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1634909442792</updated>
+    </task>
+    <task id="LOCAL-00076" summary="3">
+      <created>1634909480310</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1634909480310</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -425,8 +427,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prepare for Week2" />
-    <MESSAGE value="Prepare for Week2!" />
     <MESSAGE value="Add new folders." />
     <MESSAGE value="Add new Readme file." />
     <MESSAGE value="Add new Working Folders for [] Serg." />
@@ -450,6 +450,8 @@
     <MESSAGE value="Version #1!" />
     <MESSAGE value="Version #1 to See!" />
     <MESSAGE value="Version #1 to See!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version #1 to See!!!" />
+    <MESSAGE value="Version #2 to See!!!" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
 </project>

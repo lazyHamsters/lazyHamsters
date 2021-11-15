@@ -52,9 +52,11 @@
     color: #070606;
 }
 .row-flex{
-    margin-top: 20px;
+    margin: 20px auto 0px;
 }
-
+figure{
+    margin: 0 auto;
+}
 .card{
     padding: 10px;
     max-width: 400px;
