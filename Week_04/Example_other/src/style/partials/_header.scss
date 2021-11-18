@@ -1,0 +1,380 @@
+
+$baseColor: #8d81ac;
+
+.header__section {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0 10px 450px 10px;
+
+
+  h1 {
+    color: #fff;
+    font-size: 44px;
+    margin: 0;
+    padding-top: 40px;
+  }
+
+  h2 {
+    color: $baseColor;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 10px;
+    span{
+      display: block;
+      line-height: 35px;
+    }
+  }
+
+  h3 {
+    color: #848E97;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+}
+
+.header-button {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -27.5px;
+    &--large{
+      background-color: $baseColor;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 20px;
+      height: 45px;
+      width: 290px;
+      transition: ease-in 0.5s;
+    }
+    &--large:hover {
+      background-color: #fff;
+      color: $baseColor;
+      border: 1px solid $baseColor;
+      transition: ease-in 0.5s;
+  }
+    p {
+      font-size: 14px;
+      color: #848E97;
+    }
+}
+
+.header {
+  &__nav{
+    height: 100px;
+    background-color: #27262a;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.nav {
+  &__logo a {
+    background: url(../img/navbar-logo1.png) center center;
+    width: 43px;
+    height: 41px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    text-decoration: none;
+    transition: ease-in 0.5s;
+  }
+  &__logo a:hover{
+    background: url(../img/navbar-logo-hover.png) center;
+    width: 43px;
+    height: 41px;
+    transition: ease-in 0.5s;
+    color: #fff;
+  }
+
+  &__logo {
+    .logoName {
+      position: absolute;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $baseColor;
+      display: none;
+      left: 55px;
+      transition: ease-in 0.5s;
+    }
+    .logoName:hover {
+      color: #fff;
+      transition: ease-in 0.5s;
+    }
+  }
+
+  &__button {
+    position: absolute;
+
+    &--small {
+      background-color: $baseColor;
+      color: #fff;
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      border: none;
+      border-radius: 20px;
+      height: 37px;
+      width: 120px;
+      top: 30px;
+      transition: ease-in 0.5s;
+    }
+    &--small:hover {
+      background-color: #fff;
+      color: $baseColor;
+      border: 1px solid $baseColor;
+      transition: ease-in 0.5s;
+    }
+  }
+
+  &__toggle {
+    &-button {
+      position: absolute;
+      height: 40px;
+      width: 35px;
+      background-color: #27262a;
+      border: none;
+      top: 30px;
+      right: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header {
+    background: no-repeat url(../img/fon-header320.png) center center;
+    background-size: cover;
+    box-sizing: border-box;
+  }
+  .nav {
+    &__main-menu {
+      width: 90%;
+      background-color: #333333;
+      position: absolute;
+      top: 100%;
+      right: 5%;
+      display: none;
+      &--active {
+        display: block;
+      }
+    }
+
+    &__menu-list {
+      list-style: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 26px;
+      padding-inline-start: 0;
+      padding-bottom: 10px;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+
+    &__list-item {
+      border-bottom: 2px solid #3b3b3b;
+      padding: 30px 0 35px 30px;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+      a:hover::before {
+        content: url("../img/block.png");
+        position: absolute;
+        left: 0;
+        margin-top: -10px;
+        color: $baseColor;
+      }
+      a:hover {
+        color: $baseColor;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+.header {
+  background: no-repeat url(../img/fon-header768.png) center center;
+  background-size: cover;
+  box-sizing: border-box;
+  }
+  .header__section {
+    padding: 0 10px 470px 10px;
+
+    h1 {
+      font-size: 64px;
+    }
+
+    h2 {
+      font-size: 22px;
+      span {
+        display: inline;
+      }
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+  }
+  .header-button {
+    &--large{
+      font-size: 24px;
+      height: 60px;
+      width: 390px;
+      border-radius: 30px;
+    }
+  }
+  .header {
+    &__nav {
+      height: 120px;
+      background-color: #27262a;
+      align-items: center;
+    }
+  }
+  .nav {
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    &__logo {
+      .logoName {
+        font-size: 24px;
+        display: block;
+        left: 55px;
+        top: 5px;
+      }
+    }
+
+    &__button {
+      order: 1;
+      right: 25px;
+      top: 30px;
+    }
+
+    &__toggle {
+      &-button {
+        display: none;
+      }
+    }
+    &__main-menu {
+      position: absolute;
+      left: 0;
+      width: 100%;
+    }
+    &__menu-list {
+      display: flex;
+      list-style: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin-top: 25px;
+      padding: 0;
+      width: 100%;
+      justify-content: space-around;
+    }
+    &__list-item {
+      display: inline;
+      a {
+        text-decoration: none;
+        color: $baseColor;
+        transition: ease-in-out 0.5s;
+      }
+      a:hover {
+        color: #fff;
+        transition: ease-in-out 0.5s;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .header {
+    background: no-repeat url(../img/fon-header1200.png) center center;
+    background-size: cover;
+    box-sizing: border-box;
+  }
+  .header__section {
+    padding: 0 10px 470px 10px;
+
+    h1 {
+      font-size: 76px;
+    }
+
+    h2 {
+      font-size: 24px;
+      span {
+        display: inline;
+      }
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+  }
+  .header-button {
+    &--large {
+      font-size: 24px;
+      height: 60px;
+      width: 390px;
+      border-radius: 30px;
+    }
+  }
+  .nav {
+    &__logo a {
+      left: 80px;
+    }
+    &__logo {
+      .logoName {
+        font-size: 24px;
+        display: block;
+        left: 55px;
+        top: 5px;
+      }
+    }
+    &__button{
+      right: 80px;
+    }
+    &__toggle {
+      &-button {
+        display: none;
+      }
+    }
+    &__main-menu {
+      position: absolute;
+      right: 240px;
+      top: 25px;
+    }
+    &__menu-list {
+      color: $baseColor;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      list-style: none;
+    }
+    &__list-item {
+      display: inline;
+      margin-left: 35px;
+
+      a {
+        text-decoration: none;
+        color: $baseColor;
+        transition: ease-in-out 0.5s;
+      }
+      a:hover {
+        color: #fff;
+        transition: ease-in-out 0.5s;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .header {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
