@@ -1,0 +1,347 @@
+
+.pricing {
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  background-color: #4a3b4e;
+  box-sizing: border-box;
+  //margin-top: -10px;
+  text-align: center;
+
+
+  &__header h2 {
+    width: inherit;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 150%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    letter-spacing: .045em;
+    color: #fff;
+    padding: 70px 38px 50px 38px;
+  }
+
+  &__list {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+
+
+    &__block {
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.current-price__item {
+  display: flex;
+  flex-direction: column;
+  height: 457px;
+  width: 257px;
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(103, 83, 105, .4);
+
+
+  &__header {
+    h2 {
+      margin: 0;
+      padding-top: 40px;
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+      text-transform: uppercase;
+      height: 97px;
+      background: rgba(147, 127, 156, .3);
+      box-sizing: border-box;
+    }
+  }
+
+  &__price {
+    p {
+      padding-top: 32px;
+      margin: 0;
+      font-size: 55px;
+      color: #fff;
+      box-sizing: border-box;
+
+      span {
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+
+  &__rate {
+    p {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #776370;
+      padding: 15px 0 30px 0;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+  }
+
+  &__line {
+    p {
+      background-color: #8d81ac;
+      height: 5px;
+      width: 60px;
+      padding: 0;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+  }
+
+  &__type {
+    p {
+      font-size: 16px;
+      color: #fff;
+      height: 60px;
+      width: 206px;
+      font-weight: 400;
+      padding: 30px 0;
+      margin: 0 auto;
+      line-height: 170%;
+      letter-spacing: .045em;
+      box-sizing: border-box;
+    }
+  }
+
+  button {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    background: rgba(105, 92, 108, .4);
+    margin-left: auto;
+    margin-right: auto;
+    height: 42px;
+    width: 160px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 50px;
+    box-sizing: border-box;
+  }
+
+  button:hover {
+    background: #d2cdd2;
+    color: rgba(105, 92, 108, .4);
+    font-weight: 700;
+    box-sizing: border-box;
+  }
+}
+
+.active {
+  height: 560px;
+  width: 300px;
+  margin-top: 0;
+  background: rgba(57, 45, 61, .4);
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+}
+
+.active .current-price__item {
+  margin: 50px auto;
+  box-sizing: border-box;
+
+
+  &__header {
+    h2 {
+
+      padding-top: 50px;
+      height: 110px;
+      background: rgba(57, 45, 61, .6);
+      box-sizing: border-box;
+    }
+  }
+
+  &__price {
+    p {
+      font-size: 78px;
+      box-sizing: border-box;
+    }
+  }
+
+  &__type {
+    p {
+      padding-top: 40px;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.active button {
+  font-size: 18px;
+  background: rgba(99, 108, 98, .4);
+  font-weight: 400;
+  height: 52px;
+  width: 190px;
+  border-radius: 50px;
+  margin-top: 80px;
+  box-sizing: border-box;
+}
+
+.active button:hover {
+  background: #d2cdd2;
+  color: rgba(105, 92, 108, .4);
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+  .pricing {
+    width: 100%;
+    background-color: #4a3b4e;
+
+    &__header {
+      h2 {
+        padding: 80px 38px 0 38px;
+        font-size: 40px;
+        text-align: center;
+      }
+    }
+
+    &__list {
+      background: url(../img/pricing_middle.png) no-repeat center center fixed;
+      background-size: cover;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: -1px;
+
+
+      &__block:nth-child(1) {
+        margin-left: 14%;
+        margin-top: 47px;
+      }
+
+      &__block:nth-child(2) {
+        margin-top: 47px;
+        margin-right: 12%;
+      }
+
+      &__block:nth-child(3) {
+        margin-top: 40px;
+        margin-left: 11%;
+        margin-bottom: 82px;
+      }
+
+      &__block:nth-child(4) {
+        margin-top: 90px;
+        margin-right: 12%;
+        margin-bottom: 132px;
+      }
+    }
+  }
+  .current-price__item {
+    height: 457px;
+    width: 33.46%;
+
+    &__type {
+      p {
+        width: 75%;
+        padding: 20px 0;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .active {
+    height: 560px;
+    width: 41%;
+  }
+  .active .current-price__item__type p {
+    width: 206px;
+  }
+
+}
+
+@media screen and (min-width: 993px) {
+  .pricing {
+    // width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4a3b4e;
+
+    &__header {
+      h2 {
+        padding: 80px 38px 0 38px;
+        font-size: 46px;
+      }
+    }
+
+    &__list {
+      width: 100%;
+      background: url(../img/pricing_full.png) no-repeat top center;
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+
+      &__block {
+        width: 24%;
+      }
+
+      &__block:nth-child(1) {
+        margin: 0 15px 0 4%;
+      }
+
+      &__block:nth-child(2) {
+        margin: 0 15px 0 0;
+      }
+
+      &__block:nth-child(4) {
+        margin: 0 4% 0 0;
+      }
+
+      &__block:nth-child(3) {
+        margin: 70px 15px 100px 0;
+      }
+    }
+  }
+  .active {
+    width: 28%
+  }
+}
+
+@media screen and (min-width: 1201px) {
+
+  .pricing {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__header h2 {
+      width: 1200px;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      margin-left: auto;
+      margin-right: auto;
+
+      &__block {
+        width: 257px;
+      }
+    }
+
+  }
+  .active {
+    width: 300px;
+  }
+}

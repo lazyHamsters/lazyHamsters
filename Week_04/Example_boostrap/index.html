@@ -1,0 +1,430 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loft Mebel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+  
+  <header class="row header">
+    <div class="container-xxl header__up d-none d-lg-block">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-xxl">
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light active" aria-current="page" href="#">Головна</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#ollContacts">Про нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#ollContacts">Контакти</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__up--contact">
+            <a class="navbar-brand text-light" href="+380971943406">8 (964) 89 99 119</a>
+            <a class="navbar-brand text-light" href="#ollContacts">Доставка</a>
+          </div>  
+        </div>
+      </nav>
+    </div> 
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-xxl d-flex justify-content-between align-items-center">
+        <!--бутерброд-->
+        <div class="dropdown d-flex col-sm-1 d-lg-none">
+          <button class="navbar__burger btn btn-light" type="button" id="dropdownMenuButton111" data-bs-toggle="dropdown" aria-expanded="false">
+            <span></span>
+          </button>
+          <ul class="dropdown-menu navbar__burger--window" aria-labelledby="dropdownMenuButton111">
+            <li><a class="dropdown-item" href="#">Головна</a></li>
+            <li><a class="dropdown-item" href="#">Про нас</a></li>
+            <li><a class="dropdown-item" href="#">Контакти</a></li>
+          </ul>
+        </div>
+        <a class="col-2" href="#"><img src="./img/LOGO.png" alt=""></a>
+        <div class="col-6 col-md-8 d-flex justify-content-end justify-content-md-between">
+          <form class="d-none d-md-flex  col-md-6 col-lg-8 d-flex">
+            <button class="btn btn-outline-success p-1 bg-light" type="submit"><img class="m-1" src="./img/search-icon.svg" alt=""></button>
+            <input class="form-control me-2 bg-light" type="search" placeholder="Пошук" aria-label="Search">
+          </form>
+          <ul class="header__main--icon col-6 col-md-4 d-flex justify-content-end mb-2 mb-lg-0">
+            <li class="header__main--icon nav-item d-none d-sm-block">
+              <a class="header__main--link delivery nav-link d-lg-none" href="#">Доставка</a>
+            </li>
+            <li class="header__main--icon nav-item">
+              <a class="header__main--link nav-link" href="#"><img src="./img/heard-icon.svg" alt=""></a>
+            </li>
+            <li class="header__main--icon nav-item">
+              <a class="header__main--link nav-link" href="#"><img src="./img/bag.svg" alt=""></a>
+            </li>
+            <li class="header__main--icon nav-item">
+              <a class="header__main--link nav-link" href="#"><img src="./img/profile-icon.svg" alt=""></a>
+            </li>
+          </ul>
+          
+        </div>
+        
+      </div>
+    </nav>
+    <form class="d-block d-md-none  col-11 d-flex pt-1 pb-2 m-auto">
+      <button class="btn btn-outline-success p-1 bg-light" type="submit"><img class="m-1" src="./img/search-icon.svg" alt=""></button>
+      <input class="form-control me-2 flex-fill bg-light" type="search" placeholder="Пошук" aria-label="Search">
+    </form> 
+  </header>
+
+
+  <main>
+    <section class="catalog container-xxl">
+      <div class="catalog__header">
+        <!--ШАПКА КАТАЛОГУ-->
+        <ul class="nav nav-pills nav-fill d-flex justify-content-between">
+          <li class="catalog__header--item nav-item">
+            <a class="catalog__header--link nav-link d-flex flex-column flex-md-row" aria-current="page" href="#">
+              <img class="catalog__header--img" src="./img/kitchen-icon.svg" alt=""><span class="d-none d-sm-block">Кухни</span></a>
+          </li>
+          <li class="catalog__header--item nav-item">
+            <a class="catalog__header--link nav-link d-flex flex-column flex-md-row" aria-current="page" href="#">
+              <img class="catalog__header--img" src="./img/bedroom-icon.svg" alt=""><span class="d-none d-sm-block">Спальни</span>
+            </a>
+          </li>
+          <li class="catalog__header--item nav-item">
+            <a class="catalog__header--link nav-link d-flex flex-column flex-md-row " aria-current="page" href="#">
+              <img class="catalog__header--img mr-2 mr-md-0 mb-md-2" src="./img/livingroom-icon.svg" alt=""><span class="d-none d-sm-block">Гостинные</span></a>
+          </li>
+          <li class="catalog__header--item nav-item">
+            <a class="catalog__header--link nav-link d-flex flex-column flex-md-row" aria-current="page" href="#">
+              <img class="catalog__header--img" src="./img/closet-icon.svg" alt=""><span class="d-none d-sm-block">Прихожие</span></a>
+          </li>
+          <li class="catalog__header--item nav-item">
+            <a class="catalog__header--link nav-link d-flex flex-column flex-md-row" aria-current="page" href="#">
+              <img class="catalog__header--img" src="./img/office-icon.svg" alt=""><span class="d-none d-sm-block">Oфисная мебель</span></a>
+          </li>
+          <li class="catalog__header--item nav-item">
+            <a class="catalog__header--link nav-link d-flex flex-column flex-md-row" aria-current="page" href="#">
+              <img class="catalog__header--img" src="./img/childrensroom-icon.svg" alt=""><span class="d-none d-sm-block">Детская</span></a>
+          </li>
+          <li class="catalog__header--item nav-item">
+            <a class="catalog__header--link nav-link d-flex flex-column flex-md-row" aria-current="page" href="#">
+              <img class="catalog__header--img" src="./img/sale-white.svg" alt=""><span class="d-none d-sm-block">Акция</span></a>
+          </li>
+          
+        </ul>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/1785 1.jpg" class="d-block w-100" alt="...">
+            <div class="card catalog__card bg-transparent" style="width: 18rem;">
+              <div class="card-body">
+                <h3 class="card-title"><b>loft<br>мебель</b></h3>
+                <p class="card-text">Современная и удобная мебель в Анапе</p>
+                <a href="#mebelCatalog" class="btn btn-light">Розглянути каталог</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/bg-slider2.jpg" class="d-block w-100" alt="...">
+            <div class="card catalog__card bg-transparent" style="width: 18rem;">
+              <div class="card-body">
+                <h3 class="card-title"><b>loft<br>мебель</b></h3>
+                <p class="card-text">Современная и удобная мебель в Анапе</p>
+                <a href="#mebelCatalog" class="btn btn-light">Розглянути каталог</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/1785 1.jpg" class="d-block w-100" alt="...">
+            <div class="card catalog__card bg-transparent" style="width: 18rem;">
+              <div class="card-body">
+                <h3 class="card-title"><b>loft<br>мебель</b></h3>
+                <p class="card-text">Современная и удобная мебель в Анапе</p>
+                <a href="#mebelCatalog" class="btn btn-light">Розглянути каталог</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+    </section>
+    <section class="hit container-xxl" id="mebelCatalog">
+      <p class="hit__title">Хиты продаж</p>
+      <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 g-4">
+        <div class="col">
+          <div class="card hit__card h-100" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+            <div class="row hit__card--head">
+              <div class="hit__card--sale col-4">
+                <img src="./img/sale-red.svg" alt="">
+                <p>-25%</p>
+              </div>
+              <img class="hit__card--heard col-2" src="./img/heard-icon.svg" alt="">
+              
+            </div>
+            <img src="./img/catalog/image 2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="hit__card--title">Валенсия Beige</h5>
+              <p class="hit__card--text">Барные стулья</p>
+              <p class="hit__card--prise">2 300</p>
+              <div class="hit__card--active collapse" id="collapseExample1">
+                <p>Размеры</p>
+                <div class="d-flex justify-content-start w-100">
+                  <p class="hit__card--dimensions w-25"><span>ШИРИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ГЛУБИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ВЫСОТА</span><br>17cm</p>
+                </div>
+                <button class="btn btn-primary w-100" type="button">Добавить в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card hit__card h-100" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+            <div class="row hit__card--head">
+              <div class="hit__card--sale col-4">
+                <img class="d-none" src="./img/sale-red.svg" alt="">
+                <p></p>
+              </div>
+              <img class="hit__card--heard col-2" src="./img/heard-icon.svg" alt="">
+            </div>
+            <img src="./img/catalog/image 2 (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="hit__card--title">Толикс-2 White Gloss</h5>
+              <p class="hit__card--text">Барные стулья</p>
+              <p class="hit__card--prise">2 500</p>
+              <div class="hit__card--active collapse" id="collapseExample2">
+                <p>Размеры</p>
+                <div class="d-flex justify-content-start w-100">
+                  <p class="hit__card--dimensions w-25"><span>ШИРИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ГЛУБИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ВЫСОТА</span><br>17cm</p>
+                </div>
+                <button class="btn btn-primary w-100" type="button">Добавить в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card hit__card h-100" id="mebelSofa" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+            <div class="row hit__card--head">
+              <div class="hit__card--sale col-4">
+                <img class="d-none" src="./img/sale-red.svg" alt="">
+                <p></p>
+              </div>
+              <img class="hit__card--heard col-2" src="./img/heard-icon.svg" alt="">
+            </div>
+            <img src="./img/catalog/image 2 (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="hit__card--title">Динс Velvet Yellow</h5>
+              <p class="hit__card--text">Диваны</p>
+              <p class="hit__card--prise">12 300</p>
+              <div class="hit__card--active collapse" id="collapseExample3">
+                <p>Размеры</p>
+                <div class="d-flex justify-content-start w-100">
+                  <p class="hit__card--dimensions w-25"><span>ШИРИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ГЛУБИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ВЫСОТА</span><br>17cm</p>
+                </div>
+                <button class="btn btn-primary w-100" type="button">Добавить в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card hit__card h-100" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+            <div class="row hit__card--head">
+              <div class="hit__card--sale col-4">
+                <img src="./img/sale-red.svg" alt="">
+                <p>-5%</p>
+              </div>
+              <img class="hit__card--heard col-2" src="./img/heard-icon.svg" alt="">
+            </div>
+            <img src="./img/catalog/image 2 (3).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="hit__card--title">Кускен Navy Blue</h5>
+              <p class="hit__card--text">Диваны</p>
+              <p class="hit__card--prise">1500</p>
+              <div class="hit__card--active collapse" id="collapseExample4">
+                <p>Размеры</p>
+                <div class="d-flex justify-content-start w-100">
+                  <p class="hit__card--dimensions w-25"><span>ШИРИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ГЛУБИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ВЫСОТА</span><br>17cm</p>
+                </div>
+                <button class="btn btn-primary w-100" type="button">Добавить в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card hit__card h-100" id="mebelBadroom" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+            <div class="row hit__card--head">
+              <div class="hit__card--sale col-4">
+                <img class="d-none" src="./img/sale-red.svg" alt="">
+                <p></p>
+              </div>
+              <img class="hit__card--heard col-2" src="./img/heard-icon.svg" alt="">
+            </div>
+            <img src="./img/catalog/image 2 (4).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="hit__card--title">Шерона Barhat Grey</h5>
+              <p class="hit__card--text">Двухспальные кровати</p>
+              <p class="hit__card--prise">3 300</p>
+              <div class="hit__card--active collapse" id="collapseExample5">
+                <p>Размеры</p>
+                <div class="d-flex justify-content-start w-100">
+                  <p class="hit__card--dimensions w-25"><span>ШИРИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ГЛУБИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ВЫСОТА</span><br>17cm</p>
+                </div>
+                <button class="btn btn-primary w-100" type="button">Добавить в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card hit__card h-100" id="mebelKitchen" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
+            <div class="row hit__card--head">
+              <div class="hit__card--sale col-4">
+                <img class="d-none" src="./img/sale-red.svg" alt="">
+                <p></p>
+              </div>
+              <img class="hit__card--heard col-2" src="./img/heard-icon.svg" alt="">
+            </div>
+            <img src="./img/catalog/image 2 (5).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="hit__card--title">Авиньон-1</h5>
+              <p class="hit__card--text">Буфеты</p>
+              <p class="hit__card--prise">2 300</p>
+              <div class="hit__card--active collapse" id="collapseExample6">
+                <p>Размеры</p>
+                <div class="d-flex justify-content-start w-100">
+                  <p class="hit__card--dimensions w-25"><span>ШИРИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ГЛУБИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ВЫСОТА</span><br>17cm</p>
+                </div>
+                <button class="btn btn-primary w-100" type="button">Добавить в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card hit__card h-100" id="mebelHoll" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
+            <div class="row hit__card--head">
+              <div class="hit__card--sale col-4">
+                <img class="d-none" src="./img/sale-red.svg" alt="">
+                <p></p>
+              </div>
+              <img class="hit__card--heard col-2" src="./img/heard-icon.svg" alt="">
+            </div>
+            <img src="./img/catalog/image 2 (6).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="hit__card--title">Стелла Дуб Сонома</h5>
+              <p class="hit__card--text">Комодb</p>
+              <p class="hit__card--prise">1 300</p>
+              <div class="hit__card--active collapse" id="collapseExample7">
+                <p>Размеры</p>
+                <div class="d-flex justify-content-start w-100">
+                  <p class="hit__card--dimensions w-25"><span>ШИРИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ГЛУБИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ВЫСОТА</span><br>17cm</p>
+                </div>
+                <button class="btn btn-primary w-100" type="button">Добавить в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card hit__card h-100" data-bs-toggle="collapse" data-bs-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">
+            <div class="row hit__card--head">
+              <div class="hit__card--sale col-4">
+                <img src="./img/sale-red.svg" alt="">
+                <p>-15%</p>
+              </div>
+              <img class="hit__card--heard col-2" src="./img/heard-icon.svg" alt="">
+            </div>
+            <img src="./img/catalog/image 2 (9).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="hit__card--title">Тиффани Вудлайн Крем</h5>
+              <p class="hit__card--text">Письменные столы</p>
+              <p class="hit__card--prise">8 300</p>
+              <div class="hit__card--active collapse" id="collapseExample8">
+                <p>Размеры</p>
+                <div class="d-flex justify-content-start w-100">
+                  <p class="hit__card--dimensions w-25"><span>ШИРИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ГЛУБИНА</span><br>43cm</p>
+                  <p class="hit__card--dimensions w-25"><span>ВЫСОТА</span><br>17cm</p>
+                </div>
+                <button class="btn btn-primary w-100" type="button">Добавить в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    
+  </main>
+  <footer class="footer mt-3 mb-3 pb-2">
+    <div class="container-xxl d-flex justify-content-between mt-5 mb-4">
+      <div class="footer__category">
+        <h5 class="footer__category--title mb-3"><b>Навігація</b></h5>
+        <div class="footer__category--block d-flex justify-content-between">
+          <div class="footer__category--column d-flex flex-column align-items-start w-25">
+            <a href="#mebelKitchen" class="footer__category--name">Кухні</a>
+            <a href="#mebelBadroom" class="footer__category--name">Спальні</a>
+            <a href="#mebelSofa" class="footer__category--name">Гостинні</a>
+          </div>
+          <div class="footer__category--column d-flex flex-column align-items-start w-25">
+            <a href="#mebelHoll" class="footer__category--name">Прихожі</a>
+            <a href="#" class="footer__category--name">Офісні меблі</a>
+            <a href="#" class="footer__category--name">Дитячі</a>
+          </div>
+          <div class="footer__category--column d-flex flex-column align-items-start w-25">
+            <a href="#" class="footer__category--name">Шафи</a>
+            <a href="#" class="footer__category--name">Матраци</a>
+            <a href="#mebelSofa" class="footer__category--name">М'ягкі меблі</a>
+          </div>
+        </div>
+        <div class="footer__category--block mt-3 d-flex justify-content-start">
+          <a href="#carouselExampleControls" class="footer__category--sale">Акція</a>
+          <a href="#carouselExampleControls" class="footer__category--new">Новинки</a>
+        </div>  
+      </div>
+      <div class="footer__contact text-end">
+        <h3 class="footer__contact--title mb-3"><b>LM</b></h3>
+        <p class="footer__contact--adress">м. Кобиляки, Марсіанське шоссе,
+          <br>30 Ж/К Космопорт
+        </p>
+        <div class="footer__contact--link" id="ollContacts">
+          <a href="#" class="footer__contact--phone"><img src="./img/phone.svg" alt=""><span>+38 (073) 89 99 119</span></a>
+          <a href="#" class="footer__contact--insta"><img src="./img/inst.svg" alt=""><span>INSTAGRAM</span></a>
+          <a href="#" class="footer__contact--mail"><img src="./img/mail.svg" alt=""><span>mebel_loft_anapa@gmail.com</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>  
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
