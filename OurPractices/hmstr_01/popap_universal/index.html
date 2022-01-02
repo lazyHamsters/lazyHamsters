@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modalstyle.css">
+    <title>modalUnaversal</title>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="header">
+            <button data-modal-btn="my_modal1">Window #1</button>
+            <button data-modal-btn="my_modal2">Window #2</button>
+            <button data-modal-btn="my_modal3">Window #3</button>
+        </div>
+        <div data-modal-window="my_modal1" class="modal">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <div class="modal_title">Модальне вікно №1</div>
+                    <div class="close_modal_window">&times;</div>
+                </div>
+                <p class="modal_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aliquid eligendi earum, velit, facilis sapiente iure voluptas 
+                    ipsa nostrum nemo perspiciatis iusto sit corrupti aspernatur 
+                    laborum?</p>
+            </div>
+        </div>
+
+        <div data-modal-window="my_modal2" class="modal">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <div class="modal_title">Модальне вікно №2</div>
+                    <div class="close_modal_window">&times;</div>
+                </div>
+                <p class="modal_text">Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Vitae eaque nulla iste, consequuntur quod 
+                    sit ducimus. Temporibus obcaecati id quas soluta, quis voluptate
+                    que accusamus inventore officia sapiente quidem corrupti, non
+                     fugit! Doloremque debitis cumque harum illum sed magnam eos. 
+                     Impedit iste atque temporibus quasi corrupti, molestias accusamus 
+                     ducimus corporis obcaecati, sed reprehenderit. Voluptatem 
+                     exercitationem mollitia doloremque obcaecati dolores nobis.</p>
+            </div>
+        </div>
+
+        <div data-modal-window="my_modal3" class="modal">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <div class="modal_title">Модальне вікно №3</div>
+                    <div class="close_modal_window">&times;</div>
+                </div>
+                <div class="modal_img">
+                    <img src="./img/img_4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="modalscript.js"></script>
+</body>
+</html>
