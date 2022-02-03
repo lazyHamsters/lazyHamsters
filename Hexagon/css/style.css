@@ -1,0 +1,399 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(18deg, #9ce7d1, #07fa64);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+/* 
+* One hexagon - "empty", version "-lh_v0"
+*/
+  .hexagon-wrapper-lh_v0 {
+    margin: auto;
+    display: flex;
+    text-align: initial;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+  }
+  
+  .hexagon-lh_v0 {
+    position: relative;
+    width: 46%;
+    height: 80%;
+    margin: auto;
+    color: rgb(235, 233, 154);
+    background-color: rgb(219, 200, 26);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: 0.5s;
+  }
+ 
+  .hexagon-lh_v0:before,
+  .hexagon-lh_v0:after {
+    position: absolute;
+    content: "";
+    background: inherit;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  .hexagon-lh_v0:before {
+    transform: rotateZ(60deg);
+  }
+  .hexagon-lh_v0:after {
+    transform: rotateZ(-60deg);
+  }
+/* 
+* One hexagon - with "img" inside, version "-lh_v1"
+*/
+
+.hexagon-wrapper-lh_v1 {
+  margin: auto;
+  display: flex;
+  text-align: initial;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.hexagon-lh_v1 {
+  position: relative;
+  width: 46%;
+  height: 80%;
+  margin: auto;
+  color: rgb(235, 233, 154);
+  background-color: rgb(219, 200, 26);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.hexagon-lh_v1:before,
+.hexagon-lh_v1:after {
+  position: absolute;
+  content: "";
+  background: inherit;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  transition: 0.5s;
+  transform-origin: center;
+}
+.hexagon-lh_v1:before {
+  transform: rotateZ(60deg);
+}
+.hexagon-lh_v1:after {
+  transform: rotateZ(-60deg);
+}
+.hexagon-img-lh_v1{
+  height: 50%;
+  width: 80%;
+  z-index: 10;
+  margin: auto;
+}
+.hexagon-lh_v1:hover {
+  border-radius: 130px;
+  transition: 0.5s;
+}
+.hexagon-img-lh_v1:hover {
+  transform: scale(1.3);
+  transition: 0.8s;
+}
+
+.hexagon-lh_v1:hover:before {
+  border-radius: 130px;
+  transition: 0.5s;
+}
+.hexagon-lh_v1:hover:after {
+  border-radius: 130px;
+  transition: 0.5s;
+}
+
+
+/* 
+* One hexagon - with effects and ico, version "-lh_v2"
+ */
+  .hexagon-wrapper-lh_v2 {
+    margin: auto;
+    display: flex;
+    text-align: initial;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+  }
+  
+  .hexagon-lh_v2 {
+    position: relative;
+    width: 46%;
+    height: 80%;
+    margin: auto;
+    color: rgb(230, 228, 112);
+    background-color: rgb(235, 213, 15);
+    background: linear-gradient(-180deg, rgb(248, 252, 4), #eedf07);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: 0.5s;
+  }
+  
+  .hexagon-lh_v2 i {
+    z-index: 12;
+    margin: auto;
+    font-size: 50px;
+    color: transparent;
+    background: linear-gradient(45deg, #97f0c3, #5beb22);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .hexagon-lh_v2:before,
+  .hexagon-lh_v2:after {
+    position: absolute;
+    content: "";
+    background: inherit;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  .hexagon-lh_v2:before {
+    transform: rotateZ(60deg);
+  }
+  .hexagon-lh_v2:after {
+    transform: rotateZ(-60deg);
+  }
+  .hexagon-lh_v2:hover {
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  .hexagon-lh_v2:hover:before {
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  .hexagon-lh_v2:hover:after {
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  /* 
+  
+  
+  
+  */
+  .hexagon {
+    /* width: 96.75px;
+    height: 150px; */
+    width: 95px;
+    height: 150px;
+    background-image: linear-gradient(90deg, #b9dd37, #b37e0b);
+    border-radius: 15px;
+    transition: transform 400ms ease;
+  }
+  .hexagon:hover {
+    transform: rotate(30deg);
+  }
+  .hexagon:before, .hexagon:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: inherit;
+    height: inherit;
+    background-image: inherit;
+    border-radius: inherit;
+  }
+  .hexagon:before {
+    transform: rotate(60deg);
+  }
+  .hexagon:after {
+    transform: rotate(-60deg);
+  }
+  body {
+    margin: 0;
+    background-color: #272727;
+  }
+  .center {
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: auto;
+    display: flex;
+    text-align: initial;
+    width: 200px;
+    height: 200px;
+    cursor: pointer; */
+    display: flex;
+    /* align-content: center;
+    justify-content: center; */
+  }
+  /* 
+  add.... last example...
+  */
+
+  #hexGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+    font-family: sans-serif;
+    list-style-type: none;
+  }
+  
+  .hex {
+    position: relative;
+    visibility:hidden;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+    transition: all 0.5s;
+    backface-visibility: hidden;
+    will-change: transform;
+    transition: all 0.5s;
+    
+  }
+  .hex::after{
+    content:'';
+    display:block;
+    padding-bottom: 86.602%;  /* =  100 / tan(60) * 1.5 */
+  }
+  .hexIn{
+    position: absolute;
+    width:96%;
+    padding-bottom: 110.851%; /* =  width / sin(60) */
+    margin: 2%;
+    overflow: hidden;
+    visibility: hidden;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+    -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+        -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+            transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+      transition: all 0.5s;
+  }
+  .hexIn * {
+    position: absolute;
+    visibility: visible;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  }
+  .hexLink {
+      display:block;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      color: #fff;
+      overflow: hidden;
+      -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+          -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+              transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+  }
+  
+  
+  
+  
+  /*** HEX CONTENT **********************************************************************/
+  .hex img {
+    left: 50%;
+    right: 50%;
+    width: auto;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .hex h1, .hex p {
+    width: 100%;
+    padding: 5%;
+    box-sizing:border-box;
+    font-weight: 300;
+    opacity: 0;
+  }
+  
+  #demo1 {
+    color: #F5CE95;
+    text-transform: capitalize;
+      text-align: center;
+    bottom: 50%;
+    padding-top:50%;
+    font-size: 1em;
+    z-index: 1;
+  }
+  .hex h1:before, .hex h1:after {
+    display: inline-block;
+    margin: 0 0.5em;
+    width: 0.25em;
+    height: 0.03em;
+    background: #ffffff;
+    content: '';
+    vertical-align: middle;
+    transition: all 0.3s;
+    text-align:center;
+  }
+  
+  #demo2 {
+  top: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.2em;
+      
+  }
+  
+  .img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .img:before, .img:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .img:before {
+    background: rgba(22, 103, 137, 0.3)
+  }
+  .img:after {
+    background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5), transparent);
+  }
+  
+  /*** HOVER EFFECT  **********************************************************************/
+  
+  
+  
+  .hexLink:hover h1, .hexLink:focus h1,
+  .hexLink:hover p, .hexLink:focus p{
+  opacity:1;
+  transition: 0.8s;
+  }
+  
+  
+  .hexIn:hover .img:before,
+  .hexIn:hover .img:after,
+  .hexIn:hover .hexLink {
+    opacity: 1;
+  }
+  
+  .hex {
+    width: 160px; /* = 100 / 5 */
+    margin: auto;
+  }
+  
